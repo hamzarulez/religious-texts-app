@@ -1,121 +1,142 @@
 {
-  "id": "85",
-  "chapterNumber": 85,
+  "id": 85,
   "name": "البروج",
   "transliteration": "Al-Buruj",
   "translation": "The Mansions of the Stars",
   "type": "meccan",
-  "totalVerses": 22,
+  "total_verses": 22,
   "verses": [
     {
-      "number": 1,
+      "id": 1,
       "text": "وَٱلسَّمَآءِ ذَاتِ ٱلۡبُرُوجِ",
-      "translation": "By the sky containing great stars"
+      "translation": "By the sky containing great stars",
+      "transliteration": "Waalssamai thati alburooji"
     },
     {
-      "number": 2,
+      "id": 2,
       "text": "وَٱلۡيَوۡمِ ٱلۡمَوۡعُودِ",
-      "translation": "And [by] the promised Day"
+      "translation": "And [by] the promised Day",
+      "transliteration": "Waalyawmi almawAAoodi"
     },
     {
-      "number": 3,
+      "id": 3,
       "text": "وَشَاهِدٖ وَمَشۡهُودٖ",
-      "translation": "And [by] the witness and what is witnessed"
+      "translation": "And [by] the witness and what is witnessed",
+      "transliteration": "Washahidin wamashhoodin"
     },
     {
-      "number": 4,
+      "id": 4,
       "text": "قُتِلَ أَصۡحَٰبُ ٱلۡأُخۡدُودِ",
-      "translation": "Cursed were the companions of the trench"
+      "translation": "Cursed were the companions of the trench",
+      "transliteration": "Qutila ashabu alukhdoodi"
     },
     {
-      "number": 5,
+      "id": 5,
       "text": "ٱلنَّارِ ذَاتِ ٱلۡوَقُودِ",
-      "translation": "[Containing] the fire full of fuel"
+      "translation": "[Containing] the fire full of fuel",
+      "transliteration": "Alnnari thati alwaqoodi"
     },
     {
-      "number": 6,
+      "id": 6,
       "text": "إِذۡ هُمۡ عَلَيۡهَا قُعُودٞ",
-      "translation": "When they were sitting near it"
+      "translation": "When they were sitting near it",
+      "transliteration": "Ith hum AAalayha quAAoodun"
     },
     {
-      "number": 7,
+      "id": 7,
       "text": "وَهُمۡ عَلَىٰ مَا يَفۡعَلُونَ بِٱلۡمُؤۡمِنِينَ شُهُودٞ",
-      "translation": "And they, to what they were doing against the believers, were witnesses"
+      "translation": "And they, to what they were doing against the believers, were witnesses",
+      "transliteration": "Wahum AAala ma yafAAaloona bialmumineena shuhoodun"
     },
     {
-      "number": 8,
+      "id": 8,
       "text": "وَمَا نَقَمُواْ مِنۡهُمۡ إِلَّآ أَن يُؤۡمِنُواْ بِٱللَّهِ ٱلۡعَزِيزِ ٱلۡحَمِيدِ",
-      "translation": "And they resented them not except because they believed in Allah, the Exalted in Might, the Praiseworthy"
+      "translation": "And they resented them not except because they believed in Allah, the Exalted in Might, the Praiseworthy",
+      "transliteration": "Wama naqamoo minhum illa an yuminoo biAllahi alAAazeezi alhameedi"
     },
     {
-      "number": 9,
+      "id": 9,
       "text": "ٱلَّذِي لَهُۥ مُلۡكُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۚ وَٱللَّهُ عَلَىٰ كُلِّ شَيۡءٖ شَهِيدٌ",
-      "translation": "To whom belongs the dominion of the heavens and the earth. And Allah, over all things, is Witness"
+      "translation": "To whom belongs the dominion of the heavens and the earth. And Allah, over all things, is Witness",
+      "transliteration": "Allathee lahu mulku alssamawati waalardi waAllahu AAala kulli shayin shaheedun"
     },
     {
-      "number": 10,
+      "id": 10,
       "text": "إِنَّ ٱلَّذِينَ فَتَنُواْ ٱلۡمُؤۡمِنِينَ وَٱلۡمُؤۡمِنَٰتِ ثُمَّ لَمۡ يَتُوبُواْ فَلَهُمۡ عَذَابُ جَهَنَّمَ وَلَهُمۡ عَذَابُ ٱلۡحَرِيقِ",
-      "translation": "Indeed, those who have tortured the believing men and believing women and then have not repented will have the punishment of Hell, and they will have the punishment of the Burning Fire"
+      "translation": "Indeed, those who have tortured the believing men and believing women and then have not repented will have the punishment of Hell, and they will have the punishment of the Burning Fire",
+      "transliteration": "Inna allatheena fatanoo almumineena waalmuminati thumma lam yatooboo falahum AAathabu jahannama walahum AAathabu alhareeqi"
     },
     {
-      "number": 11,
+      "id": 11,
       "text": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ لَهُمۡ جَنَّـٰتٞ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُۚ ذَٰلِكَ ٱلۡفَوۡزُ ٱلۡكَبِيرُ",
-      "translation": "Indeed, those who have believed and done righteous deeds will have gardens beneath which rivers flow. That is the great attainment"
+      "translation": "Indeed, those who have believed and done righteous deeds will have gardens beneath which rivers flow. That is the great attainment",
+      "transliteration": "Inna allatheena amanoo waAAamiloo alssalihati lahum jannatun tajree min tahtiha alanharu thalika alfawzu alkabeeru"
     },
     {
-      "number": 12,
+      "id": 12,
       "text": "إِنَّ بَطۡشَ رَبِّكَ لَشَدِيدٌ",
-      "translation": "Indeed, the vengeance of your Lord is severe"
+      "translation": "Indeed, the vengeance of your Lord is severe",
+      "transliteration": "Inna batsha rabbika lashadeedun"
     },
     {
-      "number": 13,
+      "id": 13,
       "text": "إِنَّهُۥ هُوَ يُبۡدِئُ وَيُعِيدُ",
-      "translation": "Indeed, it is He who originates [creation] and repeats"
+      "translation": "Indeed, it is He who originates [creation] and repeats",
+      "transliteration": "Innahu huwa yubdio wayuAAeedu"
     },
     {
-      "number": 14,
+      "id": 14,
       "text": "وَهُوَ ٱلۡغَفُورُ ٱلۡوَدُودُ",
-      "translation": "And He is the Forgiving, the Affectionate"
+      "translation": "And He is the Forgiving, the Affectionate",
+      "transliteration": "Wahuwa alghafooru alwadoodu"
     },
     {
-      "number": 15,
+      "id": 15,
       "text": "ذُو ٱلۡعَرۡشِ ٱلۡمَجِيدُ",
-      "translation": "Honorable Owner of the Throne"
+      "translation": "Honorable Owner of the Throne",
+      "transliteration": "Thoo alAAarshi almajeedi"
     },
     {
-      "number": 16,
+      "id": 16,
       "text": "فَعَّالٞ لِّمَا يُرِيدُ",
-      "translation": "Effecter of what He intends"
+      "translation": "Effecter of what He intends",
+      "transliteration": "FaAAAAalun lima yureedu"
     },
     {
-      "number": 17,
+      "id": 17,
       "text": "هَلۡ أَتَىٰكَ حَدِيثُ ٱلۡجُنُودِ",
-      "translation": "Has there reached you the story of the soldiers"
+      "translation": "Has there reached you the story of the soldiers",
+      "transliteration": "Hal ataka hadeethu aljunoodi"
     },
     {
-      "number": 18,
+      "id": 18,
       "text": "فِرۡعَوۡنَ وَثَمُودَ",
-      "translation": "[Those of] Pharaoh and Thamud"
+      "translation": "[Those of] Pharaoh and Thamud",
+      "transliteration": "FirAAawna wathamooda"
     },
     {
-      "number": 19,
+      "id": 19,
       "text": "بَلِ ٱلَّذِينَ كَفَرُواْ فِي تَكۡذِيبٖ",
-      "translation": "But they who disbelieve are in [persistent] denial"
+      "translation": "But they who disbelieve are in [persistent] denial",
+      "transliteration": "Bali allatheena kafaroo fee taktheebin"
     },
     {
-      "number": 20,
+      "id": 20,
       "text": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطُۢ",
-      "translation": "While Allah encompasses them from behind"
+      "translation": "While Allah encompasses them from behind",
+      "transliteration": "WaAllahu min waraihim muheetun"
     },
     {
-      "number": 21,
+      "id": 21,
       "text": "بَلۡ هُوَ قُرۡءَانٞ مَّجِيدٞ",
-      "translation": "But this is an honored Qur'an"
+      "translation": "But this is an honored Qur'an",
+      "transliteration": "Bal huwa quranun majeedun"
     },
     {
-      "number": 22,
+      "id": 22,
       "text": "فِي لَوۡحٖ مَّحۡفُوظِۭ",
-      "translation": "[Inscribed] in a Preserved Slate"
+      "translation": "[Inscribed] in a Preserved Slate",
+      "transliteration": "Fee lawhin mahfoothin"
     }
   ]
 }

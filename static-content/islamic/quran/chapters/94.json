@@ -1,51 +1,58 @@
 {
-  "id": "94",
-  "chapterNumber": 94,
+  "id": 94,
   "name": "الشرح",
   "transliteration": "Ash-Sharh",
   "translation": "The Relief",
   "type": "meccan",
-  "totalVerses": 8,
+  "total_verses": 8,
   "verses": [
     {
-      "number": 1,
+      "id": 1,
       "text": "أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ",
-      "translation": "Did We not expand for you, [O Muhammad], your breast"
+      "translation": "Did We not expand for you, [O Muhammad], your breast",
+      "transliteration": "Alam nashrah laka sadraka"
     },
     {
-      "number": 2,
+      "id": 2,
       "text": "وَوَضَعۡنَا عَنكَ وِزۡرَكَ",
-      "translation": "And We removed from you your burden"
+      "translation": "And We removed from you your burden",
+      "transliteration": "WawadaAAna AAanka wizraka"
     },
     {
-      "number": 3,
+      "id": 3,
       "text": "ٱلَّذِيٓ أَنقَضَ ظَهۡرَكَ",
-      "translation": "Which had weighed upon your back"
+      "translation": "Which had weighed upon your back",
+      "transliteration": "Allathee anqada thahraka"
     },
     {
-      "number": 4,
+      "id": 4,
       "text": "وَرَفَعۡنَا لَكَ ذِكۡرَكَ",
-      "translation": "And raised high for you your repute"
+      "translation": "And raised high for you your repute",
+      "transliteration": "WarafaAAna laka thikraka"
     },
     {
-      "number": 5,
+      "id": 5,
       "text": "فَإِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرًا",
-      "translation": "For indeed, with hardship [will be] ease"
+      "translation": "For indeed, with hardship [will be] ease",
+      "transliteration": "Fainna maAAa alAAusri yusran"
     },
     {
-      "number": 6,
+      "id": 6,
       "text": "إِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرٗا",
-      "translation": "Indeed, with hardship [will be] ease"
+      "translation": "Indeed, with hardship [will be] ease",
+      "transliteration": "Inna maAAa alAAusri yusran"
     },
     {
-      "number": 7,
+      "id": 7,
       "text": "فَإِذَا فَرَغۡتَ فَٱنصَبۡ",
-      "translation": "So when you have finished [your duties], then stand up [for worship]"
+      "translation": "So when you have finished [your duties], then stand up [for worship]",
+      "transliteration": "Faitha faraghta fainsab"
     },
     {
-      "number": 8,
+      "id": 8,
       "text": "وَإِلَىٰ رَبِّكَ فَٱرۡغَب",
-      "translation": "And to your Lord direct [your] longing"
+      "translation": "And to your Lord direct [your] longing",
+      "transliteration": "Waila rabbika fairghab"
     }
   ]
 }

@@ -1,51 +1,58 @@
 {
-  "id": "102",
-  "chapterNumber": 102,
+  "id": 102,
   "name": "التكاثر",
   "transliteration": "At-Takathur",
   "translation": "The Rivalry in world increase",
   "type": "meccan",
-  "totalVerses": 8,
+  "total_verses": 8,
   "verses": [
     {
-      "number": 1,
+      "id": 1,
       "text": "أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ",
-      "translation": "Competition in [worldly] increase diverts you"
+      "translation": "Competition in [worldly] increase diverts you",
+      "transliteration": "Alhakumu alttakathuru"
     },
     {
-      "number": 2,
+      "id": 2,
       "text": "حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ",
-      "translation": "Until you visit the graveyards"
+      "translation": "Until you visit the graveyards",
+      "transliteration": "Hatta zurtumu almaqabira"
     },
     {
-      "number": 3,
+      "id": 3,
       "text": "كَلَّا سَوۡفَ تَعۡلَمُونَ",
-      "translation": "No! You are going to know"
+      "translation": "No! You are going to know",
+      "transliteration": "Kalla sawfa taAAlamoona"
     },
     {
-      "number": 4,
+      "id": 4,
       "text": "ثُمَّ كَلَّا سَوۡفَ تَعۡلَمُونَ",
-      "translation": "Then no! You are going to know"
+      "translation": "Then no! You are going to know",
+      "transliteration": "Thumma kalla sawfa taAAlamoona"
     },
     {
-      "number": 5,
+      "id": 5,
       "text": "كَلَّا لَوۡ تَعۡلَمُونَ عِلۡمَ ٱلۡيَقِينِ",
-      "translation": "No! If you only knew with knowledge of certainty"
+      "translation": "No! If you only knew with knowledge of certainty",
+      "transliteration": "Kalla law taAAlamoona AAilma alyaqeeni"
     },
     {
-      "number": 6,
+      "id": 6,
       "text": "لَتَرَوُنَّ ٱلۡجَحِيمَ",
-      "translation": "You will surely see the Hellfire"
+      "translation": "You will surely see the Hellfire",
+      "transliteration": "Latarawunna aljaheema"
     },
     {
-      "number": 7,
+      "id": 7,
       "text": "ثُمَّ لَتَرَوُنَّهَا عَيۡنَ ٱلۡيَقِينِ",
-      "translation": "Then you will surely see it with the eye of certainty"
+      "translation": "Then you will surely see it with the eye of certainty",
+      "transliteration": "Thumma latarawunnaha AAayna alyaqeeni"
     },
     {
-      "number": 8,
+      "id": 8,
       "text": "ثُمَّ لَتُسۡـَٔلُنَّ يَوۡمَئِذٍ عَنِ ٱلنَّعِيمِ",
-      "translation": "Then you will surely be asked that Day about pleasure"
+      "translation": "Then you will surely be asked that Day about pleasure",
+      "transliteration": "Thumma latusalunna yawmaithin AAani alnnaAAeemi"
     }
   ]
 }

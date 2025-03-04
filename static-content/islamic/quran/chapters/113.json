@@ -1,36 +1,40 @@
 {
-  "id": "113",
-  "chapterNumber": 113,
+  "id": 113,
   "name": "الفلق",
   "transliteration": "Al-Falaq",
   "translation": "The Daybreak",
   "type": "meccan",
-  "totalVerses": 5,
+  "total_verses": 5,
   "verses": [
     {
-      "number": 1,
+      "id": 1,
       "text": "قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ",
-      "translation": "Say, \"I seek refuge in the Lord of daybreak"
+      "translation": "Say, \"I seek refuge in the Lord of daybreak",
+      "transliteration": "Qul aAAoothu birabbi alfalaqi"
     },
     {
-      "number": 2,
+      "id": 2,
       "text": "مِن شَرِّ مَا خَلَقَ",
-      "translation": "From the evil of that which He created"
+      "translation": "From the evil of that which He created",
+      "transliteration": "Min sharri ma khalaqa"
     },
     {
-      "number": 3,
+      "id": 3,
       "text": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
-      "translation": "And from the evil of darkness when it settles"
+      "translation": "And from the evil of darkness when it settles",
+      "transliteration": "Wamin sharri ghasiqin itha waqaba"
     },
     {
-      "number": 4,
+      "id": 4,
       "text": "وَمِن شَرِّ ٱلنَّفَّـٰثَٰتِ فِي ٱلۡعُقَدِ",
-      "translation": "And from the evil of the blowers in knots"
+      "translation": "And from the evil of the blowers in knots",
+      "transliteration": "Wamin sharri alnnaffathati fee alAAuqadi"
     },
     {
-      "number": 5,
+      "id": 5,
       "text": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
-      "translation": "And from the evil of an envier when he envies"
+      "translation": "And from the evil of an envier when he envies",
+      "transliteration": "Wamin sharri hasidin itha hasada"
     }
   ]
 }
