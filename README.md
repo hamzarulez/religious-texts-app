@@ -31,15 +31,15 @@ static-content/
 
 ### Get Index
 ```http
-GET https://[username].github.io/religious-texts-app/index.json
+GET https://hamzarulez.github.io/religious-texts-app/index.json
 ```
 
 ### Get Text Metadata
 ```http
-GET https://[username].github.io/religious-texts-app/[religion]/[text]/metadata.json
+GET https://hamzarulez.github.io/religious-texts-app/[religion]/[text]/metadata.json
 ```
 
 ### Get Chapter/Book Content
 ```http
-GET https://[username].github.io/religious-texts-app/[religion]/[text]/chapters/[id].json
+GET https://hamzarulez.github.io/religious-texts-app/[religion]/[text]/chapters/[id].json
 ```
