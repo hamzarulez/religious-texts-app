@@ -1,89 +1,22 @@
 {
   "expo": {
-    "name": "Triad-of-Faith",
-    "slug": "Triad-of-Faith",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "ios": {
-      "bundleIdentifier": "com.yourcompany.triadoffaith",
-      "buildNumber": "1.0.0"
-    },
-    "android": {
-      "package": "com.yourcompany.triadoffaith",
-      "versionCode": 1
-    },
-    "extra": {
-      "eas": {
-        "projectId": "your-project-id"
-      }
-    },
+    "name": "triad-of-faith",
     "plugins": [
       [
         "expo-build-properties",
         {
           "ios": {
-            "enableDynamicCodeLoading": true
-          },
-          "android": {
-            "enableDynamicCodeLoading": true
+            "deploymentTarget": "15.1"
           }
         }
       ]
     ],
     "assetBundlePatterns": [
-      "**/*",
-      "assets/fonts/*",
-      "./node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/*"
+      "**/*"
     ],
-    "fonts": [
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/AntDesign.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Entypo.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/EvilIcons.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Feather.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Fontisto.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Foundation.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialIcons.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Octicons.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"
-      },
-      {
-        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Zocial.ttf"
-      }
-    ]
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.triadoffaith"
+    }
   }
 }

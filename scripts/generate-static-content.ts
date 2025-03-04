@@ -52,55 +52,9 @@ async function fetchQuranData(): Promise<QuranChapter[]> {
   return chapters;
 }
 
-async function generateStaticContent(): Promise<void> {
+async function generateQuranContent(): Promise<void> {
   const outputDir = path.join(__dirname, '../static-content');
   
-  console.log('🚀 Starting static content generation...');
-  
-  // Clear existing content
-  if (fs.existsSync(outputDir)) {
-    console.log('Cleaning existing content...');
-    fs.rmSync(outputDir, { recursive: true });
-  }
-
-  // Create base directory structure
-  fs.mkdirSync(outputDir, { recursive: true });
-  fs.mkdirSync(path.join(outputDir, 'islamic/quran/chapters'), { recursive: true });
-  fs.mkdirSync(path.join(outputDir, 'islamic/hadith/collections'), { recursive: true });
-
-  // Generate index file
-  const indexContent = {
-    title: "Religious Texts Repository",
-    description: "A comprehensive collection of religious texts",
-    religions: ["islamic"],
-    lastUpdated: new Date().toISOString(),
-    version: "1.0.0"
-  };
-
-  fs.writeFileSync(
-    path.join(outputDir, 'index.json'),
-    JSON.stringify(indexContent, null, 2)
-  );
-
-  console.log('✅ Created index.json');
-
-  // Generate Quran metadata
-  const quranMetadata = {
-    title: "The Holy Quran",
-    description: "The central religious text of Islam",
-    language: "en",
-    lastUpdated: new Date().toISOString(),
-    totalChapters: 114
-  };
-
-  fs.writeFileSync(
-    path.join(outputDir, 'islamic/quran/metadata.json'),
-    JSON.stringify(quranMetadata, null, 2)
-  );
-
-  console.log('✅ Created Quran metadata');
-
-  // Fetch and write Quran chapters
   console.log('📚 Reading Quran chapters...');
   const chapters = await fetchQuranData();
   
@@ -109,51 +63,284 @@ async function generateStaticContent(): Promise<void> {
     return;
   }
 
-  // Write chapters index
-  const chaptersIndex = chapters
-    .filter(chapter => chapter && chapter.id) // Additional validation
-    .map(chapter => ({
-      id: chapter.id.toString(),
-      chapterNumber: chapter.id,
+  // Create metadata with chapters information
+  const quranMetadata = {
+    title: "The Holy Quran",
+    description: "The central religious text of Islam",
+    language: "en",
+    lastUpdated: new Date().toISOString(),
+    totalChapters: 114,
+    chapters: chapters.map(chapter => ({
+      id: chapter.id,
       name: chapter.name,
       transliteration: chapter.transliteration,
       translation: chapter.translation,
       type: chapter.type,
-      totalVerses: chapter.total_verses
-    }));
+      total_verses: chapter.total_verses
+    }))
+  };
 
+  // Write metadata
   fs.writeFileSync(
-    path.join(outputDir, 'islamic/quran/chapters-index.json'),
-    JSON.stringify(chaptersIndex, null, 2)
+    path.join(outputDir, 'islamic/quran/metadata.json'),
+    JSON.stringify(quranMetadata, null, 2)
   );
 
-  console.log('✅ Created chapters index');
+  console.log('✅ Created Quran metadata');
 
   // Write individual chapter files
   for (const chapter of chapters) {
-    if (!chapter || !chapter.id) continue; // Skip invalid chapters
+    fs.writeFileSync(
+      path.join(outputDir, `islamic/quran/chapters/${chapter.id}.json`),
+      JSON.stringify(chapter, null, 2)
+    );
+    console.log(`✅ Written chapter ${chapter.id}`);
+  }
+}
 
-    const formattedChapter = {
-      id: chapter.id.toString(),
-      chapterNumber: chapter.id,
-      name: chapter.name,
-      transliteration: chapter.transliteration,
-      translation: chapter.translation,
-      type: chapter.type,
-      totalVerses: chapter.total_verses,
-      verses: chapter.verses.map(verse => ({
-        number: verse.id,
-        text: verse.text,
-        translation: verse.translation
+interface HadithMetadata {
+  length: number;
+  arabic: {
+    title: string;
+    author: string;
+    introduction: string;
+  };
+  english: {
+    title: string;
+    author: string;
+    introduction: string;
+  };
+}
+
+interface Hadith {
+  id: number;
+  idInBook: number;
+  chapterId: number;
+  bookId: number;
+  arabic: string;
+  english: {
+    narrator: string;
+    text: string;
+  };
+}
+
+interface HadithChapter {
+  metadata: HadithMetadata;
+  hadiths: Hadith[];
+  chapter: {
+    id: number;
+    bookId: number;
+    arabic: string;
+    english: string;
+  };
+}
+
+const HADITH_BOOKS = {
+  abudawud: {
+    id: "sunan_abudawud",
+    title: "Sunan Abu Dawud",
+    description: "One of the six major hadith collections (Kutub al-Sittah)",
+    directory: "the_9_books"
+  },
+  bukhari: {
+    id: "sahih_bukhari",
+    title: "Sahih al-Bukhari",
+    description: "The most authentic collection of Hadith, compiled by Imam Bukhari",
+    directory: "the_9_books"
+  },
+  muslim: {
+    id: "sahih_muslim",
+    title: "Sahih Muslim",
+    description: "One of the two most authentic hadith collections in Sunni Islam",
+    directory: "the_9_books"
+  },
+  tirmidhi: {
+    id: "jami_tirmidhi",
+    title: "Jami at-Tirmidhi",
+    description: "One of the six major hadith collections, noted for its focus on legal traditions",
+    directory: "the_9_books"
+  },
+  ibnmajah: {
+    id: "sunan_ibnmajah",
+    title: "Sunan Ibn Majah",
+    description: "One of the six major hadith collections of Sunni Islam",
+    directory: "the_9_books"
+  },
+  nasai: {
+    id: "sunan_nasai",
+    title: "Sunan an-Nasa'i",
+    description: "One of the six major hadith collections, known for its strict classification",
+    directory: "the_9_books"
+  },
+  malik: {
+    id: "muwatta_malik",
+    title: "Muwatta Malik",
+    description: "The earliest written collection of hadith and Islamic law",
+    directory: "the_9_books"
+  },
+  nawawi40: {
+    id: "nawawi_40",
+    title: "Al-Arba'un Al-Nawawiyyah",
+    description: "Imam Nawawi's collection of 40 fundamental hadiths covering the core principles of Islam",
+    directory: "forties"
+  },
+  qudsi40: {
+    id: "qudsi_40",
+    title: "40 Hadith Qudsi",
+    description: "A collection of 40 divine hadiths where Allah speaks through the Prophet Muhammad (ﷺ)",
+    directory: "forties"
+  },
+  shahwaliullah40: {
+    id: "shahwaliullah_40",
+    title: "40 Hadith Shah Waliullah",
+    description: "Shah Waliullah's collection of 40 important hadiths",
+    directory: "forties"
+  },
+  riyad_assalihin: {
+    id: "riyadus_salihin",
+    title: "Riyad as-Salihin",
+    description: "A compilation of authentic hadiths by Imam An-Nawawi",
+    directory: "other_books"
+  },
+  aladab_almufrad: {
+    id: "aladab_almufrad",
+    title: "Al-Adab Al-Mufrad",
+    description: "A collection of hadiths focusing on Islamic etiquette and manners, compiled by Imam Bukhari",
+    directory: "other_books"
+  },
+  shamail_muhammadiyah: {
+    id: "shamail_muhammadiyah",
+    title: "Shama'il Muhammadiyah",
+    description: "A collection describing the characteristics and manners of Prophet Muhammad (ﷺ), compiled by Imam Tirmidhi",
+    directory: "other_books"
+  },
+  mishkat_almasabih: {
+    id: "mishkat_almasabih",
+    title: "Mishkat al-Masabih",
+    description: "A expanded collection of hadith compiled by Al-Khatib Al-Tabrizi, building upon Masabih al-Sunnah",
+    directory: "other_books"
+  },
+  bulugh_almaram: {
+    id: "bulugh_almaram",
+    title: "Bulugh al-Maram",
+    description: "A collection of hadith pertaining to Islamic jurisprudence, compiled by Ibn Hajar al-Asqalani",
+    directory: "other_books"
+  }
+};
+
+async function processHadithBook(
+  bookDirName: string,
+  outputDir: string,
+  bookInfo: typeof HADITH_BOOKS[keyof typeof HADITH_BOOKS]
+): Promise<void> {
+  console.log(`\n📚 Processing ${bookInfo.title}...`);
+  
+  const sourceDir = path.join(__dirname, `../hadith-json/db/by_chapter/${bookInfo.directory}/${bookDirName}`);
+  const targetDir = path.join(outputDir, `islamic/hadith/${bookInfo.id}`);
+  
+  // Create directory structure
+  fs.mkdirSync(path.join(targetDir, 'chapters'), { recursive: true });
+  
+  try {
+    // Read and sort chapter files
+    const files = fs.readdirSync(sourceDir)
+      .filter(file => file.endsWith('.json'))
+      .sort((a, b) => {
+        const numA = parseInt(a.replace('.json', ''));
+        const numB = parseInt(b.replace('.json', ''));
+        return numA - numB;
+      });
+
+    const chapters: HadithChapter[] = [];
+
+    // Process each chapter file
+    for (const file of files) {
+      try {
+        const content = fs.readFileSync(path.join(sourceDir, file), 'utf8');
+        if (content.trim()) {
+          const chapterData: HadithChapter = JSON.parse(content);
+          chapters.push(chapterData);
+          console.log(`✅ Loaded ${bookInfo.id} chapter ${file}`);
+        }
+      } catch (err) {
+        console.warn(`⚠️ Error processing ${bookInfo.id} ${file}:`, err);
+      }
+    }
+
+    // Generate metadata
+    const metadata = {
+      id: bookInfo.id,
+      title: bookInfo.title,
+      description: bookInfo.description,
+      language: "en",
+      lastUpdated: new Date().toISOString(),
+      totalChapters: chapters.length,
+      chapters: chapters.map(chapter => ({
+        id: chapter.chapter.id,
+        title: chapter.chapter.english,
+        arabicTitle: chapter.chapter.arabic,
+        totalHadiths: chapter.metadata.length
       }))
     };
 
-    const chapterPath = path.join(outputDir, 'islamic/quran/chapters', `${chapter.id}.json`);
-    fs.writeFileSync(chapterPath, JSON.stringify(formattedChapter, null, 2));
-    console.log(`✅ Written chapter ${chapter.id}: ${chapter.transliteration}`);
-  }
+    // Write metadata
+    fs.writeFileSync(
+      path.join(targetDir, 'metadata.json'),
+      JSON.stringify(metadata, null, 2)
+    );
 
-  console.log('✅ Static content generated successfully');
+    // Write chapter files
+    for (const chapter of chapters) {
+      const chapterContent = {
+        id: chapter.chapter.id,
+        title: chapter.chapter.english,
+        arabicTitle: chapter.chapter.arabic,
+        totalHadiths: chapter.metadata.length,
+        hadiths: chapter.hadiths.map(hadith => ({
+          id: hadith.id,
+          numberInBook: hadith.idInBook,
+          arabic: hadith.arabic,
+          english: {
+            narrator: hadith.english.narrator,
+            text: hadith.english.text
+          }
+        }))
+      };
+
+      fs.writeFileSync(
+        path.join(targetDir, `chapters/${chapter.chapter.id}.json`),
+        JSON.stringify(chapterContent, null, 2)
+      );
+    }
+
+    console.log(`✅ Generated ${bookInfo.title} content with ${chapters.length} chapters`);
+
+  } catch (error) {
+    console.error(`❌ Error processing ${bookInfo.title}:`, error);
+  }
+}
+
+async function generateHadithContent(): Promise<void> {
+  const outputDir = path.join(__dirname, '../static-content');
+  
+  // Process each hadith book
+  for (const [dirName, bookInfo] of Object.entries(HADITH_BOOKS)) {
+    await processHadithBook(dirName, outputDir, bookInfo);
+  }
+  
+  console.log('\n✅ Completed generating all hadith content');
+}
+
+async function generateStaticContent(): Promise<void> {
+  const outputDir = path.join(__dirname, '../static-content');
+  
+  console.log('🚀 Starting static content generation...');
+  
+  // Generate Quran content
+  await generateQuranContent();
+  
+  // Generate Hadith content
+  await generateHadithContent();
 }
 
 generateStaticContent().catch(console.error);

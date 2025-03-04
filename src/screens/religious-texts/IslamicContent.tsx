@@ -55,7 +55,7 @@ export const IslamicContent: React.FC<IslamicContentProps> = ({
         <View style={styles.chaptersWrapper}>
           {content.chapters?.map((chapter) => (
             <ChapterCard
-              key={chapter.id}
+              key={`hadith-chapter-${chapter.id}`}
               chapter={{
                 id: chapter.id,
                 chapterNumber: chapter.chapterNumber,
@@ -81,7 +81,7 @@ export const IslamicContent: React.FC<IslamicContentProps> = ({
           <Text style={styles.hadithChapterTitle}>{currentChapter.title}</Text>
           <Text style={styles.hadithChapterDescription}>{currentChapter.description}</Text>
           {currentChapter.hadiths?.map((hadith) => (
-            <View key={hadith.number} style={styles.hadithItem}>
+            <View key={`hadith-${hadith.number}`} style={styles.hadithItem}>
               <Text style={styles.hadithNumber}>Hadith {hadith.number}</Text>
               <Text style={styles.narratorText}>Narrator: {hadith.narrator}</Text>
               <Text style={styles.hadithText}>{hadith.text}</Text>
@@ -94,21 +94,20 @@ export const IslamicContent: React.FC<IslamicContentProps> = ({
 
   const renderQuranChapterContent = () => {
     if (!currentChapter) {
-      // When no chapter is selected, show the chapter list
       return (
         <ScrollView style={styles.chaptersWrapper}>
           {chapters.map((chapter) => (
             <ChapterCard
-              key={chapter.chapterNumber}
+              key={`chapter-${chapter.chapterNumber}`}
               chapter={{
                 id: chapter.chapterNumber.toString(),
                 chapterNumber: chapter.chapterNumber,
-                title: chapter.translation,
+                title: `${chapter.name} - ${chapter.translation}`,
                 description: `${chapter.totalVerses} verses`
               }}
               onPress={() => {
                 navigation({
-                  title: chapter.name,
+                  title: chapter.translation,
                   chapterNumber: chapter.chapterNumber,
                   religion: religion,
                   id: id
@@ -120,16 +119,18 @@ export const IslamicContent: React.FC<IslamicContentProps> = ({
       );
     }
 
-    // When chapter is selected, show verses
     return (
       <ScrollView style={styles.contentWrapper}>
-        {currentChapter.verses?.map((verse) => (
-          <View key={verse.number} style={styles.verseItem}>
+        {currentChapter.verses?.map((verse, index) => (
+          <View 
+            key={`verse-${verse.number || index}`} 
+            style={styles.verseItem}
+          >
             <View style={styles.verseNumberContainer}>
-              <Text style={styles.verseNumber}>{verse.number}</Text>
+              <Text style={styles.verseNumber}>{verse.number || index + 1}</Text>
             </View>
             <View style={styles.verseContent}>
-              <Text style={styles.arabicText}>{verse.arabicText}</Text>
+              <Text style={[styles.arabicText, { textAlign: 'right' }]}>{verse.text}</Text>
               <Text style={styles.translationText}>{verse.translation}</Text>
             </View>
           </View>

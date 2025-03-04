@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
-import { StyleSheet, View, TextInput, Text, TouchableOpacity, ScrollView, Animated, Platform, RefreshControl } from 'react-native';
+import { StyleSheet, View, TextInput, Text, TouchableOpacity, ScrollView, Animated, RefreshControl } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { LinearGradient } from 'expo-linear-gradient';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -10,6 +10,10 @@ import DetailScreen from './src/screens/religious-texts/DetailScreen';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getTexts } from './src/utils/contentManager';
 import { loadFonts } from './src/utils/loadFonts';
+import * as SplashScreen from 'expo-splash-screen';
+
+// Keep the splash screen visible while we fetch resources
+SplashScreen.preventAutoHideAsync();
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -241,22 +245,30 @@ const ReligionStack = ({ religion, colors }) => (
 );
 
 export default function App() {
-  const [fontsLoaded, setFontsLoaded] = useState(false);
+  const [appIsReady, setAppIsReady] = useState(false);
 
   useEffect(() => {
     async function prepare() {
       try {
         await loadFonts();
-        setFontsLoaded(true);
       } catch (e) {
         console.warn('Error loading fonts:', e);
+      } finally {
+        setAppIsReady(true);
       }
     }
+
     prepare();
   }, []);
 
-  if (!fontsLoaded) {
-    return null; // or return a loading screen
+  useEffect(() => {
+    if (appIsReady) {
+      SplashScreen.hideAsync();
+    }
+  }, [appIsReady]);
+
+  if (!appIsReady) {
+    return null;
   }
 
   return (
@@ -308,7 +320,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   headerGradient: {
-    paddingTop: Platform.OS === 'ios' ? 50 : 40,
+    paddingTop: 45,  // Fixed value instead of Platform-specific
     paddingBottom: 20,
     width: '100%',
   },
@@ -436,11 +448,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     elevation: 8,
     paddingTop: 12,
-    paddingBottom: Platform.OS === 'ios' ? 28 : 12, // Increased padding, extra for iOS
-    height: Platform.OS === 'ios' ? 85 : 70, // Increased height, extra for iOS
+    paddingBottom: 20,  // Fixed value instead of Platform-specific
+    height: 75,  // Fixed value instead of Platform-specific
   },
   detailHeader: {
-    paddingTop: Platform.OS === 'ios' ? 50 : 40,
+    paddingTop: 45,  // Fixed value instead of Platform-specific
     paddingBottom: 20,
     paddingHorizontal: 20,
   },

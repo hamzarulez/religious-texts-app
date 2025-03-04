@@ -1,5 +1,6 @@
-import { db } from '../config/firebase';
-import { collection, doc, getDoc, getDocs, orderBy, query, where, limit } from 'firebase/firestore';
+import { StorageService } from './storageService';
+
+const storage = new StorageService();
 
 export interface QuranChapter {
   chapterNumber: number;
@@ -16,127 +17,59 @@ export interface QuranVerse {
   translation: string;
 }
 
-// Get all chapters
 export const getQuranChapters = async (): Promise<QuranChapter[]> => {
   try {
-    console.log('Fetching Quran chapters from Firestore...');
-    const chaptersRef = collection(db, 'religious_texts', 'quran', 'chapters');
-    const q = query(chaptersRef, orderBy('chapterNumber'));
-    const snapshot = await getDocs(q);
+    console.log('Fetching Quran chapters...');
+    const metadata = await storage.getMetadata('islamic', 'quran');
+    console.log('Received metadata:', metadata);
     
-    console.log('Firestore response:', snapshot.docs.length, 'chapters found');
-    
-    if (snapshot.empty) {
-      console.warn('No chapters found in Firestore');
+    if (!metadata || !metadata.chapters) {
+      console.warn('No chapters found in metadata');
       return [];
     }
 
-    const chapters = snapshot.docs.map(doc => {
-      const data = doc.data();
-      console.log('Chapter data:', data); // Add this debug log
-      return {
-        id: doc.id,
-        chapterNumber: data.chapterNumber,
-        name: data.name,
-        transliteration: data.transliteration,
-        translation: data.translation,
-        type: data.type,
-        totalVerses: data.totalVerses
-      } as QuranChapter;
-    });
-
-    console.log('Processed chapters:', chapters.length); // Add this debug log
-    return chapters;
+    return metadata.chapters.map(chapter => ({
+      chapterNumber: chapter.id,
+      name: chapter.name,
+      transliteration: chapter.transliteration,
+      translation: chapter.translation,
+      type: chapter.type,
+      totalVerses: chapter.total_verses
+    }));
   } catch (error) {
     console.error('Error fetching Quran chapters:', error);
-    throw error;
-  }
-};
-
-// Get a specific chapter by number
-export const getChapterById = async (chapterNumber: string): Promise<QuranChapter | null> => {
-  try {
-    const chapterRef = doc(db, 'religious_texts', 'quran', 'chapters', chapterNumber);
-    const chapterDoc = await getDoc(chapterRef);
-    
-    if (!chapterDoc.exists()) {
-      return null;
-    }
-    
-    return {
-      id: chapterDoc.id,
-      ...chapterDoc.data()
-    } as QuranChapter;
-  } catch (error) {
-    console.error('Error fetching chapter:', error);
-    throw error;
-  }
-};
-
-// Get verses for a specific chapter
-export const getChapterVerses = async (chapterId: string | number): Promise<QuranVerse[]> => {
-  try {
-    // Convert chapterId to string if it's a number
-    const chapterIdStr = String(chapterId);
-    
-    // Ensure the path is correct and properly formatted
-    const versesRef = collection(db, 'religious_texts', 'quran', 'chapters', chapterIdStr, 'verses');
-    const q = query(versesRef, orderBy('number'));
-    const snapshot = await getDocs(q);
-    
-    if (snapshot.empty) {
-      console.log(`No verses found for chapter ${chapterIdStr}`);
-      return [];
-    }
-
-    const verses = snapshot.docs.map(doc => ({
-      id: doc.id,
-      ...doc.data(),
-      number: parseInt(doc.id, 10) // Ensure number is parsed as integer
-    })) as QuranVerse[];
-
-    console.log(`Successfully fetched ${verses.length} verses for chapter ${chapterIdStr}`);
-    return verses;
-  } catch (error) {
-    console.error('Error fetching verses:', error);
-    // Return empty array instead of throwing
     return [];
   }
 };
 
-// Get a specific verse by chapter and verse number
-export const getVerseByNumber = async (chapterId: string, verseNumber: string): Promise<QuranVerse | null> => {
+export const getChapterVerses = async (chapterId: string | number): Promise<QuranVerse[]> => {
   try {
-    const verseRef = doc(db, 'religious_texts', 'quran', 'chapters', chapterId, 'verses', verseNumber);
-    const verseDoc = await getDoc(verseRef);
+    console.log(`Fetching verses for chapter ${chapterId}...`);
+    const chapterData = await storage.getContent('islamic', 'quran', String(chapterId));
+    console.log('Received chapter data:', chapterData);
     
-    if (!verseDoc.exists()) {
-      return null;
+    if (!chapterData || !chapterData.verses) {
+      console.log(`No verses found for chapter ${chapterId}`);
+      return [];
     }
-    
-    return {
-      id: verseDoc.id,
-      ...verseDoc.data()
-    } as QuranVerse;
+
+    return chapterData.verses.map((verse: any, index: number) => ({
+      number: verse.number || index + 1,
+      text: verse.text || '', // Arabic text
+      translation: verse.translation || ''
+    }));
   } catch (error) {
-    console.error('Error fetching verse:', error);
-    throw error;
+    console.error('Error fetching verses:', error);
+    return [];
   }
 };
 
-// Search chapters by type (meccan/medinan)
-export const getChaptersByType = async (type: string): Promise<QuranChapter[]> => {
+export const getVerseByNumber = async (chapterId: string, verseNumber: string): Promise<QuranVerse | null> => {
   try {
-    const chaptersRef = collection(db, 'religious_texts', 'quran', 'chapters');
-    const q = query(chaptersRef, where('type', '==', type), orderBy('chapterNumber'));
-    const snapshot = await getDocs(q);
-    
-    return snapshot.docs.map(doc => ({
-      id: doc.id,
-      ...doc.data()
-    })) as QuranChapter[];
+    const verses = await getChapterVerses(chapterId);
+    return verses.find(verse => verse.number === parseInt(verseNumber, 10)) || null;
   } catch (error) {
-    console.error('Error fetching chapters by type:', error);
-    throw error;
+    console.error('Error fetching verse:', error);
+    return null;
   }
 };

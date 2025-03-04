@@ -1,4 +1,4 @@
-import { StyleSheet, Platform } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
   container: {
@@ -10,9 +10,10 @@ export const styles = StyleSheet.create({
   },
   scrollContent: {
     flexGrow: 1,
+    paddingBottom: 24, // Added bottom padding
   },
   detailHeader: {
-    paddingTop: Platform.OS === 'ios' ? 50 : 40,
+    paddingTop: 45, // Fixed value instead of Platform.OS check
     paddingBottom: 20,
     width: '100%',
   },
@@ -28,51 +29,57 @@ export const styles = StyleSheet.create({
   detailTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: 'white',
-    flex: 1,
   },
   contentWrapper: {
     flex: 1,
     backgroundColor: '#fff',
-    padding: 8,
-    paddingTop: Platform.OS === 'ios' ? 60 : 8, // Extra padding for iOS
+    padding: 16,
+    paddingTop: 60, // Fixed value for iOS
   },
   verseItem: {
-    flexDirection: 'row',
-    paddingVertical: 6,
+    padding: 16,
     borderBottomWidth: 1,
     borderBottomColor: '#eee',
+    marginBottom: 24,
   },
   verseNumberContainer: {
-    width: 24,
-    marginRight: 8,
+    backgroundColor: '#f0f0f0',
+    borderRadius: 15,
+    padding: 8,
+    marginBottom: 8,
+    alignSelf: 'flex-start',
   },
   verseNumber: {
-    fontSize: 16,
-    color: '#43A047',
-    fontWeight: '500',
+    fontSize: 14,
+    color: '#666',
   },
   verseContent: {
-    flex: 1,
+    gap: 24,
+    marginVertical: 8,
+    minHeight: 100, // Added to ensure enough space for multi-line text
   },
   arabicText: {
-    fontSize: 22,
-    lineHeight: 30,
-    marginBottom: 2,
+    fontFamily: 'ScheherazadeNew-Regular',
+    fontSize: 26,
     textAlign: 'right',
-    color: '#000',
-    fontFamily: Platform.OS === 'ios' ? 'Arial' : 'normal',
+    writingDirection: 'rtl',
+    lineHeight: 56,
+    letterSpacing: 0,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    marginVertical: 8,
   },
   translationText: {
     fontSize: 16,
-    lineHeight: 20,
-    color: '#444',
+    color: '#333',
+    lineHeight: 24,
+    marginTop: 8,
   },
   chaptersWrapper: {
     flex: 1,
     backgroundColor: '#fff',
     padding: 16,
-    paddingTop: Platform.OS === 'ios' ? 60 : 16, // Extra padding for iOS
+    paddingTop: 60, // Fixed value for iOS
   },
   chapterCard: {
     flexDirection: 'row',
@@ -114,10 +121,16 @@ export const styles = StyleSheet.create({
     marginBottom: 4,
   },
   arabicChapterTitle: {
-    fontSize: 20,
+    fontFamily: 'ScheherazadeNew-Bold',
+    fontSize: 30,
     color: '#666',
-    marginBottom: 4,
+    marginBottom: 16,
     textAlign: 'right',
+    writingDirection: 'rtl',
+    letterSpacing: 0,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    lineHeight: 52,
   },
   chapterDescription: {
     fontSize: 14,
@@ -323,6 +336,15 @@ export const styles = StyleSheet.create({
   },
   quranVerseContent: {
     flex: 1,
+    fontFamily: 'ScheherazadeNew-Regular',
+    fontSize: 26,
+    textAlign: 'right',
+    writingDirection: 'rtl',
+    lineHeight: 56,
+    letterSpacing: 0,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    marginVertical: 8,
   },
   quranVerseText: {
     fontSize: 16,
