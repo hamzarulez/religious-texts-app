@@ -1,0 +1,352 @@
+{
+  "id": "aladab_almufrad",
+  "title": "Al-Adab Al-Mufrad",
+  "description": "A collection of hadiths focusing on Islamic etiquette and manners, compiled by Imam Bukhari",
+  "language": "en",
+  "lastUpdated": "2025-03-04T05:10:48.673Z",
+  "totalChapters": 57,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Parents",
+      "arabicTitle": "كتاب الْوَالِدَيْنِ",
+      "totalHadiths": 46
+    },
+    {
+      "id": 2,
+      "title": "Ties of Kinship",
+      "arabicTitle": "كتاب صِلَةِ الرَّحِمِ",
+      "totalHadiths": 27
+    },
+    {
+      "id": 3,
+      "title": "Mawlas (Clients of Manumission)",
+      "arabicTitle": "كتاب مَوَالِي",
+      "totalHadiths": 2
+    },
+    {
+      "id": 4,
+      "title": "Looking after girls",
+      "arabicTitle": "كتاب عول البنات",
+      "totalHadiths": 8
+    },
+    {
+      "id": 5,
+      "title": "Looking after children",
+      "arabicTitle": "كتاب رعاية الأولاد",
+      "totalHadiths": 17
+    },
+    {
+      "id": 6,
+      "title": "Neighbours",
+      "arabicTitle": "كتاب الْجَارِ",
+      "totalHadiths": 28
+    },
+    {
+      "id": 7,
+      "title": "Generosity and Orphans",
+      "arabicTitle": "كتاب الْكَرَمِ وَ يَتِيمٌ",
+      "totalHadiths": 14
+    },
+    {
+      "id": 8,
+      "title": "Children's Death",
+      "arabicTitle": "كتاب موت الأولاد",
+      "totalHadiths": 13
+    },
+    {
+      "id": 9,
+      "title": "Being a master",
+      "arabicTitle": "كتاب الملكة",
+      "totalHadiths": 56
+    },
+    {
+      "id": 10,
+      "title": "Supervision",
+      "arabicTitle": "كتاب الرعاية",
+      "totalHadiths": 9
+    },
+    {
+      "id": 11,
+      "title": "Good Conduct",
+      "arabicTitle": "كتاب الْمَعْرُوفِ",
+      "totalHadiths": 17
+    },
+    {
+      "id": 12,
+      "title": "Cheerfulness Towards People",
+      "arabicTitle": "كتاب الِانْبِسَاطِ إِلَى النَّاسِ",
+      "totalHadiths": 18
+    },
+    {
+      "id": 13,
+      "title": "Consultation",
+      "arabicTitle": "كتاب الْمَشُورَةِ",
+      "totalHadiths": 4
+    },
+    {
+      "id": 14,
+      "title": "Excellence in Character",
+      "arabicTitle": "كتاب حسن الخلق",
+      "totalHadiths": 50
+    },
+    {
+      "id": 15,
+      "title": "Cursing",
+      "arabicTitle": "كتاب اللعن",
+      "totalHadiths": 24
+    },
+    {
+      "id": 16,
+      "title": "Praise",
+      "arabicTitle": "كتاب المدح",
+      "totalHadiths": 11
+    },
+    {
+      "id": 17,
+      "title": "Visitation",
+      "arabicTitle": "كتاب الزِّيَارَةِ",
+      "totalHadiths": 10
+    },
+    {
+      "id": 18,
+      "title": "The Elderly",
+      "arabicTitle": "كتاب الأكَابِرِ",
+      "totalHadiths": 9
+    },
+    {
+      "id": 19,
+      "title": "Children",
+      "arabicTitle": "كتاب الصَّغِيرِ",
+      "totalHadiths": 10
+    },
+    {
+      "id": 20,
+      "title": "Mercy",
+      "arabicTitle": "كتاب رَحْمَةِ",
+      "totalHadiths": 13
+    },
+    {
+      "id": 21,
+      "title": "Social Behaviour",
+      "arabicTitle": "كتاب ذات البين",
+      "totalHadiths": 12
+    },
+    {
+      "id": 22,
+      "title": "Abandonment",
+      "arabicTitle": "كتاب الهجر",
+      "totalHadiths": 18
+    },
+    {
+      "id": 23,
+      "title": "Advising",
+      "arabicTitle": "كتاب الإشارة",
+      "totalHadiths": 4
+    },
+    {
+      "id": 24,
+      "title": "Disparaging",
+      "arabicTitle": "كتاب السِّبَابِ",
+      "totalHadiths": 23
+    },
+    {
+      "id": 25,
+      "title": "Extravagance in Building",
+      "arabicTitle": "كتاب السَّرَفِ فِي  الْبِنَاءِ",
+      "totalHadiths": 20
+    },
+    {
+      "id": 26,
+      "title": "Compassion",
+      "arabicTitle": "كتاب الرِّفْقِ",
+      "totalHadiths": 13
+    },
+    {
+      "id": 27,
+      "title": "Attending to this world",
+      "arabicTitle": "كتاب الاعتناء بالدنيا",
+      "totalHadiths": 8
+    },
+    {
+      "id": 28,
+      "title": "Injustice",
+      "arabicTitle": "كتاب الظُّلْم",
+      "totalHadiths": 8
+    },
+    {
+      "id": 29,
+      "title": "Visiting the Ill",
+      "arabicTitle": "كتاب عيادة المرضى",
+      "totalHadiths": 47
+    },
+    {
+      "id": 30,
+      "title": "General Behavior",
+      "arabicTitle": "كتاب التصرف العام",
+      "totalHadiths": 66
+    },
+    {
+      "id": 31,
+      "title": "Supplication",
+      "arabicTitle": "كتاب الدعاء",
+      "totalHadiths": 135
+    },
+    {
+      "id": 32,
+      "title": "Guests and Spending",
+      "arabicTitle": "كتاب الضيف والنفقة",
+      "totalHadiths": 15
+    },
+    {
+      "id": 33,
+      "title": "Sayings",
+      "arabicTitle": "كتاب الأقوال",
+      "totalHadiths": 57
+    },
+    {
+      "id": 34,
+      "title": "Names",
+      "arabicTitle": "كتاب الأسْمَاءِ",
+      "totalHadiths": 31
+    },
+    {
+      "id": 35,
+      "title": "Kunyas",
+      "arabicTitle": "كتاب  الكُنْيَةِ",
+      "totalHadiths": 14
+    },
+    {
+      "id": 36,
+      "title": "Poetry",
+      "arabicTitle": "كتاب الشِّعْرِ",
+      "totalHadiths": 19
+    },
+    {
+      "id": 37,
+      "title": "Words",
+      "arabicTitle": "كتاب الْكَلامِ",
+      "totalHadiths": 13
+    },
+    {
+      "id": 38,
+      "title": "Consequences",
+      "arabicTitle": "كتاب عاقبة الأمور",
+      "totalHadiths": 19
+    },
+    {
+      "id": 39,
+      "title": "Omens",
+      "arabicTitle": "كتاب الطيرة",
+      "totalHadiths": 12
+    },
+    {
+      "id": 40,
+      "title": "Sneezing and Yawning",
+      "arabicTitle": "كتاب الْعُطَاسَ والتثاؤب",
+      "totalHadiths": 33
+    },
+    {
+      "id": 41,
+      "title": "Gestures",
+      "arabicTitle": "كتاب الحركات",
+      "totalHadiths": 13
+    },
+    {
+      "id": 42,
+      "title": "Greetings",
+      "arabicTitle": "كتاب السَّلامِ",
+      "totalHadiths": 87
+    },
+    {
+      "id": 43,
+      "title": "Asking Permission",
+      "arabicTitle": "كتاب الاسْتِئْذَانُ",
+      "totalHadiths": 50
+    },
+    {
+      "id": 44,
+      "title": "The People of the Book",
+      "arabicTitle": "كتاب أَهْلِ الْكِتَابِ",
+      "totalHadiths": 16
+    },
+    {
+      "id": 45,
+      "title": "Letters",
+      "arabicTitle": "كتاب الرَّسَائِلِ‏",
+      "totalHadiths": 19
+    },
+    {
+      "id": 46,
+      "title": "Gatherings",
+      "arabicTitle": "كتاب الْمَجَالِسِ",
+      "totalHadiths": 17
+    },
+    {
+      "id": 47,
+      "title": "Behaviour with people",
+      "arabicTitle": "كتاب تعامل الناس",
+      "totalHadiths": 22
+    },
+    {
+      "id": 48,
+      "title": "Sitting and lying down",
+      "arabicTitle": "باب الجلوس والاستلقاء",
+      "totalHadiths": 24
+    },
+    {
+      "id": 49,
+      "title": "Mornings and evenings",
+      "arabicTitle": "كتاب الصباح والمساء",
+      "totalHadiths": 6
+    },
+    {
+      "id": 50,
+      "title": "Sleep and night lodging",
+      "arabicTitle": "كتاب النوم والمبيت",
+      "totalHadiths": 27
+    },
+    {
+      "id": 51,
+      "title": "Animals",
+      "arabicTitle": "كتاب الْبَهَائِمِ",
+      "totalHadiths": 6
+    },
+    {
+      "id": 52,
+      "title": "Midday Naps",
+      "arabicTitle": "كتاب الْقَائِلَةِ",
+      "totalHadiths": 6
+    },
+    {
+      "id": 53,
+      "title": "Circumcision",
+      "arabicTitle": "كتاب الْخِتَانِ",
+      "totalHadiths": 15
+    },
+    {
+      "id": 54,
+      "title": "Betting and similar pastimes",
+      "arabicTitle": "كتاب القمار ونحوه",
+      "totalHadiths": 23
+    },
+    {
+      "id": 55,
+      "title": "Recognition",
+      "arabicTitle": "كتاب المعرفة",
+      "totalHadiths": 23
+    },
+    {
+      "id": 56,
+      "title": "Meddling and Harshness",
+      "arabicTitle": "كتاب الفضول والجفاء",
+      "totalHadiths": 12
+    },
+    {
+      "id": 57,
+      "title": "Anger",
+      "arabicTitle": "كتاب الْغَضَبِ",
+      "totalHadiths": 7
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "id": "jami_tirmidhi",
+  "title": "Jami at-Tirmidhi",
+  "description": "One of the six major hadith collections, noted for its focus on legal traditions",
+  "language": "en",
+  "lastUpdated": "2025-03-04T05:10:48.013Z",
+  "totalChapters": 49,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Book on Purification",
+      "arabicTitle": "كتاب الطهارة عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 148
+    },
+    {
+      "id": 2,
+      "title": "The Book on Salat (Prayer)",
+      "arabicTitle": "كتاب الصلاة",
+      "totalHadiths": 304
+    },
+    {
+      "id": 3,
+      "title": "The Book on Al-Witr",
+      "arabicTitle": "أَبْوَابُ الْوِتْرِ",
+      "totalHadiths": 35
+    },
+    {
+      "id": 4,
+      "title": "The Book on the Day of Friday",
+      "arabicTitle": "كِتَاب الْجُمُعَةِ عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+      "totalHadiths": 42
+    },
+    {
+      "id": 5,
+      "title": "The Book on the Two Eids",
+      "arabicTitle": "أَبْوَابُ الْعِيدَيْنِ عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+      "totalHadiths": 14
+    },
+    {
+      "id": 6,
+      "title": "The Book on Traveling",
+      "arabicTitle": "أَبْوَابُ السَّفَرِ",
+      "totalHadiths": 73
+    },
+    {
+      "id": 7,
+      "title": "The Book on Zakat",
+      "arabicTitle": "كتاب الزكاة عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 65
+    },
+    {
+      "id": 8,
+      "title": "The Book on Fasting",
+      "arabicTitle": "كتاب الصوم عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 127
+    },
+    {
+      "id": 9,
+      "title": "The Book on Hajj",
+      "arabicTitle": "كتاب الحج عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 158
+    },
+    {
+      "id": 10,
+      "title": "The Book on Jana''iz (Funerals)",
+      "arabicTitle": "كتاب الجنائز عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 115
+    },
+    {
+      "id": 11,
+      "title": "The Book on Marriage",
+      "arabicTitle": "كتاب النكاح عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 67
+    },
+    {
+      "id": 12,
+      "title": "The Book on Suckling",
+      "arabicTitle": "كتاب الرضاع",
+      "totalHadiths": 29
+    },
+    {
+      "id": 13,
+      "title": "The Book on Divorce and Li'an",
+      "arabicTitle": "كتاب الطلاق واللعان عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 31
+    },
+    {
+      "id": 14,
+      "title": "The Book on Business",
+      "arabicTitle": "كتاب البيوع عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 125
+    },
+    {
+      "id": 15,
+      "title": "The Chapters On Judgements From The Messenger of Allah",
+      "arabicTitle": "كتاب الأحكام عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 66
+    },
+    {
+      "id": 16,
+      "title": "The Book on Blood Money",
+      "arabicTitle": "كتاب الديات عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 39
+    },
+    {
+      "id": 17,
+      "title": "The Book on Legal Punishments (Al-Hudud)",
+      "arabicTitle": "كتاب الحدود عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 47
+    },
+    {
+      "id": 18,
+      "title": "The Book on Hunting",
+      "arabicTitle": "كتاب الصيد والذبائح عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 36
+    },
+    {
+      "id": 19,
+      "title": "The Book on Sacrifices",
+      "arabicTitle": "كتاب الأضاحى عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 36
+    },
+    {
+      "id": 20,
+      "title": "The Book on Vows and Oaths",
+      "arabicTitle": "كتاب النذور والأيمان عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 26
+    },
+    {
+      "id": 21,
+      "title": "The Book on Military Expeditions",
+      "arabicTitle": "كتاب السير عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 83
+    },
+    {
+      "id": 22,
+      "title": "The Book on Virtues of Jihad",
+      "arabicTitle": "كتاب فضائل الجهاد عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 52
+    },
+    {
+      "id": 23,
+      "title": "The Book on Jihad",
+      "arabicTitle": "كتاب الجهاد عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 53
+    },
+    {
+      "id": 24,
+      "title": "The Book on Clothing",
+      "arabicTitle": "كتاب اللباس",
+      "totalHadiths": 76
+    },
+    {
+      "id": 25,
+      "title": "The Book on Food",
+      "arabicTitle": "كتاب الأطعمة عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 78
+    },
+    {
+      "id": 26,
+      "title": "The Book on Drinks",
+      "arabicTitle": "كتاب الأشربة عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 37
+    },
+    {
+      "id": 27,
+      "title": "Chapters on Righteousness And Maintaining Good Relations With Relatives",
+      "arabicTitle": "كتاب البر والصلة عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 141
+    },
+    {
+      "id": 28,
+      "title": "Chapters on Medicine",
+      "arabicTitle": "كتاب الطب عن رسول اللَّهِ صلى الله عليه وسلم",
+      "totalHadiths": 53
+    },
+    {
+      "id": 29,
+      "title": "Chapters On Inheritance",
+      "arabicTitle": "كتاب الفرائض عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 26
+    },
+    {
+      "id": 30,
+      "title": "Chapters On Wasaya (Wills and Testament)",
+      "arabicTitle": "كتاب الوصايا عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 9
+    },
+    {
+      "id": 31,
+      "title": "Chapters On Wala' And Gifts",
+      "arabicTitle": "كتاب الولاء والهبة عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 9
+    },
+    {
+      "id": 32,
+      "title": "Chapters On Al-Qadar",
+      "arabicTitle": "كتاب القدر عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 25
+    },
+    {
+      "id": 33,
+      "title": "Chapters On Al-Fitan",
+      "arabicTitle": "كتاب الفتن عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 112
+    },
+    {
+      "id": 34,
+      "title": "Chapters On Dreams",
+      "arabicTitle": "كتاب الرؤيا عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 25
+    },
+    {
+      "id": 35,
+      "title": "Chapters On Witnesses",
+      "arabicTitle": "كتاب الشهادات عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 10
+    },
+    {
+      "id": 36,
+      "title": "Chapters On Zuhd",
+      "arabicTitle": "كتاب الزهد عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 112
+    },
+    {
+      "id": 37,
+      "title": "Chapters on the description of the Day of Judgement, Ar-Riqaq, and Al-Wara'",
+      "arabicTitle": "كتاب صفة القيامة والرقائق والورع عن رسول الله صلى الله",
+      "totalHadiths": 108
+    },
+    {
+      "id": 38,
+      "title": "Chapters on the description of Paradise",
+      "arabicTitle": "كتاب صفة الجنة عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 50
+    },
+    {
+      "id": 39,
+      "title": "The Book on the Description of Hellfire",
+      "arabicTitle": "كتاب صفة جهنم عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 33
+    },
+    {
+      "id": 40,
+      "title": "The Book on Faith",
+      "arabicTitle": "كتاب الإيمان عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 39
+    },
+    {
+      "id": 41,
+      "title": "Chapters on Knowledge",
+      "arabicTitle": "كتاب العلم عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 43
+    },
+    {
+      "id": 42,
+      "title": "Chapters on Seeking Permission",
+      "arabicTitle": "كتاب الاستئذان والآداب عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 48
+    },
+    {
+      "id": 43,
+      "title": "Chapters on Manners",
+      "arabicTitle": "كتاب الأدب عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 135
+    },
+    {
+      "id": 44,
+      "title": "Chapters on Parables",
+      "arabicTitle": "كتاب الأمثال عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 17
+    },
+    {
+      "id": 45,
+      "title": "Chapters on The Virtues of the Qur'an",
+      "arabicTitle": "كتاب ثواب القرآن عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 52
+    },
+    {
+      "id": 46,
+      "title": "Chapters on Recitation",
+      "arabicTitle": "كتاب القراءات عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 23
+    },
+    {
+      "id": 47,
+      "title": "Chapters on Tafsir",
+      "arabicTitle": "كتاب تفسير القرآن عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 421
+    },
+    {
+      "id": 48,
+      "title": "Chapters on Supplication",
+      "arabicTitle": "كتاب الدعوات عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 244
+    },
+    {
+      "id": 49,
+      "title": "Chapters on Virtues",
+      "arabicTitle": "كتاب المناقب عن رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 356
+    }
+  ]
+}

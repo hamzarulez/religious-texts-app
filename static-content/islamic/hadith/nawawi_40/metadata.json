@@ -1,0 +1,16 @@
+{
+  "id": "nawawi_40",
+  "title": "Al-Arba'un Al-Nawawiyyah",
+  "description": "Imam Nawawi's collection of 40 fundamental hadiths covering the core principles of Islam",
+  "language": "en",
+  "lastUpdated": "2025-03-04T05:10:48.545Z",
+  "totalChapters": 1,
+  "chapters": [
+    {
+      "id": 0,
+      "title": "Forty Hadith of an-Nawawi",
+      "arabicTitle": "الأربعون النووية",
+      "totalHadiths": 42
+    }
+  ]
+}

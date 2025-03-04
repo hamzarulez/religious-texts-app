@@ -1,0 +1,376 @@
+{
+  "id": "muwatta_malik",
+  "title": "Muwatta Malik",
+  "description": "The earliest written collection of hadith and Islamic law",
+  "language": "en",
+  "lastUpdated": "2025-03-04T05:10:48.475Z",
+  "totalChapters": 61,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Times of Prayer",
+      "arabicTitle": "كتاب وقوت الصلاة",
+      "totalHadiths": 31
+    },
+    {
+      "id": 2,
+      "title": "Purity",
+      "arabicTitle": "كتاب الطهارة",
+      "totalHadiths": 115
+    },
+    {
+      "id": 3,
+      "title": "Prayer",
+      "arabicTitle": "كتاب الصلاة",
+      "totalHadiths": 75
+    },
+    {
+      "id": 4,
+      "title": "Forgetfulness in Prayer",
+      "arabicTitle": "كتاب السهو",
+      "totalHadiths": 3
+    },
+    {
+      "id": 5,
+      "title": "Jumu'a",
+      "arabicTitle": "كتاب الجمعة",
+      "totalHadiths": 23
+    },
+    {
+      "id": 6,
+      "title": "Prayer in Ramadan",
+      "arabicTitle": "كتاب الصلاة فى رمضان",
+      "totalHadiths": 8
+    },
+    {
+      "id": 7,
+      "title": "Tahajjud",
+      "arabicTitle": "كتاب صلاة الليل",
+      "totalHadiths": 33
+    },
+    {
+      "id": 8,
+      "title": "Prayer in Congregation",
+      "arabicTitle": "كتاب صلاة الجماعة",
+      "totalHadiths": 39
+    },
+    {
+      "id": 9,
+      "title": "Shortening the Prayer",
+      "arabicTitle": "كتاب قصر الصلاة فى السفر",
+      "totalHadiths": 104
+    },
+    {
+      "id": 10,
+      "title": "The Two 'Ids",
+      "arabicTitle": "كتاب العيدين",
+      "totalHadiths": 14
+    },
+    {
+      "id": 11,
+      "title": "The Fear Prayer",
+      "arabicTitle": "كتاب صلاة الخوف",
+      "totalHadiths": 5
+    },
+    {
+      "id": 12,
+      "title": "The Eclipse Prayer",
+      "arabicTitle": "كتاب صلاة الكسوف",
+      "totalHadiths": 4
+    },
+    {
+      "id": 13,
+      "title": "Asking for Rain",
+      "arabicTitle": "كتاب الاستسقاء",
+      "totalHadiths": 6
+    },
+    {
+      "id": 14,
+      "title": "The Qibla",
+      "arabicTitle": "كتاب القبلة",
+      "totalHadiths": 16
+    },
+    {
+      "id": 15,
+      "title": "The Qur'an",
+      "arabicTitle": "كتاب القرآن",
+      "totalHadiths": 52
+    },
+    {
+      "id": 16,
+      "title": "Burials",
+      "arabicTitle": "كتاب الجنائز",
+      "totalHadiths": 59
+    },
+    {
+      "id": 17,
+      "title": "Zakat",
+      "arabicTitle": "كتاب الزكاة",
+      "totalHadiths": 63
+    },
+    {
+      "id": 18,
+      "title": "Fasting",
+      "arabicTitle": "كتاب الصيام",
+      "totalHadiths": 66
+    },
+    {
+      "id": 19,
+      "title": "I'tikaf in Ramadan",
+      "arabicTitle": "كتاب الاعتكاف",
+      "totalHadiths": 18
+    },
+    {
+      "id": 20,
+      "title": "Hajj",
+      "arabicTitle": "كتاب الحج",
+      "totalHadiths": 267
+    },
+    {
+      "id": 21,
+      "title": "Jihad",
+      "arabicTitle": "كتاب الجهاد",
+      "totalHadiths": 54
+    },
+    {
+      "id": 22,
+      "title": "Vows and Oaths",
+      "arabicTitle": "كتاب النذور والأيمان",
+      "totalHadiths": 19
+    },
+    {
+      "id": 23,
+      "title": "Sacrificial Animals",
+      "arabicTitle": "كتاب الضحايا",
+      "totalHadiths": 13
+    },
+    {
+      "id": 24,
+      "title": "Slaughtering Animals",
+      "arabicTitle": "كتاب الذبائح",
+      "totalHadiths": 10
+    },
+    {
+      "id": 25,
+      "title": "Game",
+      "arabicTitle": "كتاب الصيد",
+      "totalHadiths": 19
+    },
+    {
+      "id": 26,
+      "title": "The 'Aqiqa",
+      "arabicTitle": "كتاب العقيقة",
+      "totalHadiths": 7
+    },
+    {
+      "id": 27,
+      "title": "Fara'id",
+      "arabicTitle": "كتاب الفرائض",
+      "totalHadiths": 24
+    },
+    {
+      "id": 28,
+      "title": "Marriage",
+      "arabicTitle": "كتاب النكاح",
+      "totalHadiths": 61
+    },
+    {
+      "id": 29,
+      "title": "Divorce",
+      "arabicTitle": "كتاب الطلاق",
+      "totalHadiths": 120
+    },
+    {
+      "id": 30,
+      "title": "Suckling",
+      "arabicTitle": "كتاب الرضاع",
+      "totalHadiths": 18
+    },
+    {
+      "id": 31,
+      "title": "Business Transactions",
+      "arabicTitle": "كتاب البيوع",
+      "totalHadiths": 103
+    },
+    {
+      "id": 32,
+      "title": "Qirad",
+      "arabicTitle": "كتاب القراض",
+      "totalHadiths": 16
+    },
+    {
+      "id": 33,
+      "title": "Sharecropping",
+      "arabicTitle": "كتاب المساقاة",
+      "totalHadiths": 3
+    },
+    {
+      "id": 34,
+      "title": "Renting Land",
+      "arabicTitle": "كتاب كراء الأرض",
+      "totalHadiths": 5
+    },
+    {
+      "id": 35,
+      "title": "Pre-emption in Property",
+      "arabicTitle": "كتاب الشفعة",
+      "totalHadiths": 5
+    },
+    {
+      "id": 36,
+      "title": "Judgements",
+      "arabicTitle": "كتاب الأقضية",
+      "totalHadiths": 72
+    },
+    {
+      "id": 37,
+      "title": "Wills and Testaments",
+      "arabicTitle": "كتاب الوصية",
+      "totalHadiths": 13
+    },
+    {
+      "id": 38,
+      "title": "Setting Free and Wala'",
+      "arabicTitle": "كتاب العتق والولاء",
+      "totalHadiths": 28
+    },
+    {
+      "id": 39,
+      "title": "The Mukatab",
+      "arabicTitle": "كتاب المكاتب",
+      "totalHadiths": 15
+    },
+    {
+      "id": 40,
+      "title": "The Mudabbar",
+      "arabicTitle": "كتاب المدبر",
+      "totalHadiths": 8
+    },
+    {
+      "id": 41,
+      "title": "Hudud",
+      "arabicTitle": "كتاب الحدود",
+      "totalHadiths": 37
+    },
+    {
+      "id": 42,
+      "title": "Drinks",
+      "arabicTitle": "كتاب الأشربة",
+      "totalHadiths": 20
+    },
+    {
+      "id": 43,
+      "title": "Blood-Money",
+      "arabicTitle": "كتاب العقول",
+      "totalHadiths": 45
+    },
+    {
+      "id": 44,
+      "title": "The Oath of Qasama",
+      "arabicTitle": "كتاب القسامة",
+      "totalHadiths": 6
+    },
+    {
+      "id": 45,
+      "title": "Madina",
+      "arabicTitle": "كتاب الْمَدِينَةِ",
+      "totalHadiths": 25
+    },
+    {
+      "id": 46,
+      "title": "The Decree",
+      "arabicTitle": "كتاب القدر",
+      "totalHadiths": 10
+    },
+    {
+      "id": 47,
+      "title": "Good Character",
+      "arabicTitle": "كتاب حسن الخلق",
+      "totalHadiths": 18
+    },
+    {
+      "id": 48,
+      "title": "Dress",
+      "arabicTitle": "كتاب اللباس",
+      "totalHadiths": 20
+    },
+    {
+      "id": 49,
+      "title": "The Description of the Prophet, may Allah Bless Him and Grant Him Peace",
+      "arabicTitle": "كتاب صفة النبى صلى الله عليه وسلم",
+      "totalHadiths": 42
+    },
+    {
+      "id": 50,
+      "title": "The Evil Eye",
+      "arabicTitle": "كتاب العين",
+      "totalHadiths": 19
+    },
+    {
+      "id": 51,
+      "title": "Hair",
+      "arabicTitle": "كتاب الشعر",
+      "totalHadiths": 17
+    },
+    {
+      "id": 52,
+      "title": "Visions",
+      "arabicTitle": "كتاب الرؤيا",
+      "totalHadiths": 8
+    },
+    {
+      "id": 53,
+      "title": "Greetings",
+      "arabicTitle": "كتاب السلام",
+      "totalHadiths": 8
+    },
+    {
+      "id": 54,
+      "title": "General Subjects",
+      "arabicTitle": "كتاب الاستئذان",
+      "totalHadiths": 45
+    },
+    {
+      "id": 55,
+      "title": "The Oath of Allegiance",
+      "arabicTitle": "كتاب البيعة",
+      "totalHadiths": 3
+    },
+    {
+      "id": 56,
+      "title": "Speech",
+      "arabicTitle": "كتاب الكلام",
+      "totalHadiths": 28
+    },
+    {
+      "id": 57,
+      "title": "Jahannam",
+      "arabicTitle": "كتاب جهنم",
+      "totalHadiths": 2
+    },
+    {
+      "id": 58,
+      "title": "Sadaqa",
+      "arabicTitle": "كتاب الصدقة",
+      "totalHadiths": 15
+    },
+    {
+      "id": 59,
+      "title": "Knowledge",
+      "arabicTitle": "كتاب العلم",
+      "totalHadiths": 1
+    },
+    {
+      "id": 60,
+      "title": "The Supplication of the Unjustly Wronged",
+      "arabicTitle": "كتاب دعوة المظلوم",
+      "totalHadiths": 1
+    },
+    {
+      "id": 61,
+      "title": "The Names of the Prophet, may Allah Bless Him and Grant Him Peace",
+      "arabicTitle": "كتاب أسماء النبى صلى الله عليه وسلم",
+      "totalHadiths": 1
+    }
+  ]
+}
