@@ -1,0 +1,339 @@
+{
+  "title": "The Holy Bible (King James Version)",
+  "description": "The Christian sacred text",
+  "language": "en",
+  "lastUpdated": "2025-03-04T08:15:09.268Z",
+  "totalBooks": 66,
+  "books": [
+    {
+      "name": "1 Chronicles",
+      "totalChapters": 29,
+      "totalVerses": 942
+    },
+    {
+      "name": "1 Corinthians",
+      "totalChapters": 16,
+      "totalVerses": 437
+    },
+    {
+      "name": "1 John",
+      "totalChapters": 5,
+      "totalVerses": 105
+    },
+    {
+      "name": "1 Kings",
+      "totalChapters": 22,
+      "totalVerses": 816
+    },
+    {
+      "name": "1 Peter",
+      "totalChapters": 5,
+      "totalVerses": 105
+    },
+    {
+      "name": "1 Samuel",
+      "totalChapters": 31,
+      "totalVerses": 810
+    },
+    {
+      "name": "1 Thessalonians",
+      "totalChapters": 5,
+      "totalVerses": 89
+    },
+    {
+      "name": "1 Timothy",
+      "totalChapters": 6,
+      "totalVerses": 113
+    },
+    {
+      "name": "2 Chronicles",
+      "totalChapters": 36,
+      "totalVerses": 822
+    },
+    {
+      "name": "2 Corinthians",
+      "totalChapters": 13,
+      "totalVerses": 257
+    },
+    {
+      "name": "2 John",
+      "totalChapters": 1,
+      "totalVerses": 13
+    },
+    {
+      "name": "2 Kings",
+      "totalChapters": 25,
+      "totalVerses": 719
+    },
+    {
+      "name": "2 Peter",
+      "totalChapters": 3,
+      "totalVerses": 61
+    },
+    {
+      "name": "2 Samuel",
+      "totalChapters": 24,
+      "totalVerses": 695
+    },
+    {
+      "name": "2 Thessalonians",
+      "totalChapters": 3,
+      "totalVerses": 47
+    },
+    {
+      "name": "2 Timothy",
+      "totalChapters": 4,
+      "totalVerses": 83
+    },
+    {
+      "name": "3 John",
+      "totalChapters": 1,
+      "totalVerses": 14
+    },
+    {
+      "name": "Acts",
+      "totalChapters": 28,
+      "totalVerses": 1007
+    },
+    {
+      "name": "Amos",
+      "totalChapters": 9,
+      "totalVerses": 146
+    },
+    {
+      "name": "Colossians",
+      "totalChapters": 4,
+      "totalVerses": 95
+    },
+    {
+      "name": "Daniel",
+      "totalChapters": 12,
+      "totalVerses": 357
+    },
+    {
+      "name": "Deuteronomy",
+      "totalChapters": 34,
+      "totalVerses": 959
+    },
+    {
+      "name": "Ecclesiastes",
+      "totalChapters": 12,
+      "totalVerses": 222
+    },
+    {
+      "name": "Ephesians",
+      "totalChapters": 6,
+      "totalVerses": 155
+    },
+    {
+      "name": "Esther",
+      "totalChapters": 10,
+      "totalVerses": 167
+    },
+    {
+      "name": "Exodus",
+      "totalChapters": 40,
+      "totalVerses": 1213
+    },
+    {
+      "name": "Ezekiel",
+      "totalChapters": 48,
+      "totalVerses": 1273
+    },
+    {
+      "name": "Ezra",
+      "totalChapters": 10,
+      "totalVerses": 280
+    },
+    {
+      "name": "Galatians",
+      "totalChapters": 6,
+      "totalVerses": 149
+    },
+    {
+      "name": "Genesis",
+      "totalChapters": 50,
+      "totalVerses": 1533
+    },
+    {
+      "name": "Habakkuk",
+      "totalChapters": 3,
+      "totalVerses": 56
+    },
+    {
+      "name": "Haggai",
+      "totalChapters": 2,
+      "totalVerses": 38
+    },
+    {
+      "name": "Hebrews",
+      "totalChapters": 13,
+      "totalVerses": 303
+    },
+    {
+      "name": "Hosea",
+      "totalChapters": 14,
+      "totalVerses": 197
+    },
+    {
+      "name": "Isaiah",
+      "totalChapters": 66,
+      "totalVerses": 1292
+    },
+    {
+      "name": "James",
+      "totalChapters": 5,
+      "totalVerses": 108
+    },
+    {
+      "name": "Jeremiah",
+      "totalChapters": 52,
+      "totalVerses": 1364
+    },
+    {
+      "name": "Job",
+      "totalChapters": 42,
+      "totalVerses": 1070
+    },
+    {
+      "name": "Joel",
+      "totalChapters": 3,
+      "totalVerses": 73
+    },
+    {
+      "name": "John",
+      "totalChapters": 21,
+      "totalVerses": 879
+    },
+    {
+      "name": "Jonah",
+      "totalChapters": 4,
+      "totalVerses": 48
+    },
+    {
+      "name": "Joshua",
+      "totalChapters": 24,
+      "totalVerses": 658
+    },
+    {
+      "name": "Jude",
+      "totalChapters": 1,
+      "totalVerses": 25
+    },
+    {
+      "name": "Judges",
+      "totalChapters": 21,
+      "totalVerses": 618
+    },
+    {
+      "name": "Lamentations",
+      "totalChapters": 5,
+      "totalVerses": 154
+    },
+    {
+      "name": "Leviticus",
+      "totalChapters": 27,
+      "totalVerses": 859
+    },
+    {
+      "name": "Luke",
+      "totalChapters": 24,
+      "totalVerses": 1151
+    },
+    {
+      "name": "Malachi",
+      "totalChapters": 4,
+      "totalVerses": 57
+    },
+    {
+      "name": "Mark",
+      "totalChapters": 16,
+      "totalVerses": 678
+    },
+    {
+      "name": "Matthew",
+      "totalChapters": 28,
+      "totalVerses": 1071
+    },
+    {
+      "name": "Micah",
+      "totalChapters": 7,
+      "totalVerses": 105
+    },
+    {
+      "name": "Nahum",
+      "totalChapters": 3,
+      "totalVerses": 47
+    },
+    {
+      "name": "Nehemiah",
+      "totalChapters": 13,
+      "totalVerses": 406
+    },
+    {
+      "name": "Numbers",
+      "totalChapters": 36,
+      "totalVerses": 1288
+    },
+    {
+      "name": "Obadiah",
+      "totalChapters": 1,
+      "totalVerses": 21
+    },
+    {
+      "name": "Philemon",
+      "totalChapters": 1,
+      "totalVerses": 25
+    },
+    {
+      "name": "Philippians",
+      "totalChapters": 4,
+      "totalVerses": 104
+    },
+    {
+      "name": "Proverbs",
+      "totalChapters": 31,
+      "totalVerses": 915
+    },
+    {
+      "name": "Psalms",
+      "totalChapters": 150,
+      "totalVerses": 2461
+    },
+    {
+      "name": "Revelation",
+      "totalChapters": 22,
+      "totalVerses": 404
+    },
+    {
+      "name": "Romans",
+      "totalChapters": 16,
+      "totalVerses": 433
+    },
+    {
+      "name": "Ruth",
+      "totalChapters": 4,
+      "totalVerses": 85
+    },
+    {
+      "name": "Song of Solomon",
+      "totalChapters": 8,
+      "totalVerses": 117
+    },
+    {
+      "name": "Titus",
+      "totalChapters": 3,
+      "totalVerses": 46
+    },
+    {
+      "name": "Zechariah",
+      "totalChapters": 14,
+      "totalVerses": 211
+    },
+    {
+      "name": "Zephaniah",
+      "totalChapters": 3,
+      "totalVerses": 53
+    }
+  ]
+}
