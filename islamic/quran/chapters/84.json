@@ -1,136 +1,160 @@
 {
-  "id": "84",
-  "chapterNumber": 84,
+  "id": 84,
   "name": "الإنشقاق",
   "transliteration": "Al-Inshiqaq",
   "translation": "The Sundering",
   "type": "meccan",
-  "totalVerses": 25,
+  "total_verses": 25,
   "verses": [
     {
-      "number": 1,
+      "id": 1,
       "text": "إِذَا ٱلسَّمَآءُ ٱنشَقَّتۡ",
-      "translation": "When the sky has split [open]"
+      "translation": "When the sky has split [open]",
+      "transliteration": "Itha alssamao inshaqqat"
     },
     {
-      "number": 2,
+      "id": 2,
       "text": "وَأَذِنَتۡ لِرَبِّهَا وَحُقَّتۡ",
-      "translation": "And has responded to its Lord and was obligated [to do so]"
+      "translation": "And has responded to its Lord and was obligated [to do so]",
+      "transliteration": "Waathinat lirabbiha wahuqqat"
     },
     {
-      "number": 3,
+      "id": 3,
       "text": "وَإِذَا ٱلۡأَرۡضُ مُدَّتۡ",
-      "translation": "And when the earth has been extended"
+      "translation": "And when the earth has been extended",
+      "transliteration": "Waitha alardu muddat"
     },
     {
-      "number": 4,
+      "id": 4,
       "text": "وَأَلۡقَتۡ مَا فِيهَا وَتَخَلَّتۡ",
-      "translation": "And has cast out that within it and relinquished [it]"
+      "translation": "And has cast out that within it and relinquished [it]",
+      "transliteration": "Waalqat ma feeha watakhallat"
     },
     {
-      "number": 5,
+      "id": 5,
       "text": "وَأَذِنَتۡ لِرَبِّهَا وَحُقَّتۡ",
-      "translation": "And has responded to its Lord and was obligated [to do so]"
+      "translation": "And has responded to its Lord and was obligated [to do so]",
+      "transliteration": "Waathinat lirabbiha wahuqqat"
     },
     {
-      "number": 6,
+      "id": 6,
       "text": "يَـٰٓأَيُّهَا ٱلۡإِنسَٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدۡحٗا فَمُلَٰقِيهِ",
-      "translation": "O mankind, indeed you are laboring toward your Lord with [great] exertion and will meet it"
+      "translation": "O mankind, indeed you are laboring toward your Lord with [great] exertion and will meet it",
+      "transliteration": "Ya ayyuha alinsanu innaka kadihun ila rabbika kadhan famulaqeehi"
     },
     {
-      "number": 7,
+      "id": 7,
       "text": "فَأَمَّا مَنۡ أُوتِيَ كِتَٰبَهُۥ بِيَمِينِهِۦ",
-      "translation": "Then as for he who is given his record in his right hand"
+      "translation": "Then as for he who is given his record in his right hand",
+      "transliteration": "Faama man ootiya kitabahu biyameenihi"
     },
     {
-      "number": 8,
+      "id": 8,
       "text": "فَسَوۡفَ يُحَاسَبُ حِسَابٗا يَسِيرٗا",
-      "translation": "He will be judged with an easy account"
+      "translation": "He will be judged with an easy account",
+      "transliteration": "Fasawfa yuhasabu hisaban yaseeran"
     },
     {
-      "number": 9,
+      "id": 9,
       "text": "وَيَنقَلِبُ إِلَىٰٓ أَهۡلِهِۦ مَسۡرُورٗا",
-      "translation": "And return to his people in happiness"
+      "translation": "And return to his people in happiness",
+      "transliteration": "Wayanqalibu ila ahlihi masrooran"
     },
     {
-      "number": 10,
+      "id": 10,
       "text": "وَأَمَّا مَنۡ أُوتِيَ كِتَٰبَهُۥ وَرَآءَ ظَهۡرِهِۦ",
-      "translation": "But as for he who is given his record behind his back"
+      "translation": "But as for he who is given his record behind his back",
+      "transliteration": "Waamma man ootiya kitabahu waraa thahrihi"
     },
     {
-      "number": 11,
+      "id": 11,
       "text": "فَسَوۡفَ يَدۡعُواْ ثُبُورٗا",
-      "translation": "He will cry out for destruction"
+      "translation": "He will cry out for destruction",
+      "transliteration": "Fasawfa yadAAoo thubooran"
     },
     {
-      "number": 12,
+      "id": 12,
       "text": "وَيَصۡلَىٰ سَعِيرًا",
-      "translation": "And [enter to] burn in a Blaze"
+      "translation": "And [enter to] burn in a Blaze",
+      "transliteration": "Wayasla saAAeeran"
     },
     {
-      "number": 13,
+      "id": 13,
       "text": "إِنَّهُۥ كَانَ فِيٓ أَهۡلِهِۦ مَسۡرُورًا",
-      "translation": "Indeed, he had [once] been among his people in happiness"
+      "translation": "Indeed, he had [once] been among his people in happiness",
+      "transliteration": "Innahu kana fee ahlihi masrooran"
     },
     {
-      "number": 14,
+      "id": 14,
       "text": "إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
-      "translation": "Indeed, he had thought he would never return [to Allah]"
+      "translation": "Indeed, he had thought he would never return [to Allah]",
+      "transliteration": "Innahu thanna an lan yahoora"
     },
     {
-      "number": 15,
+      "id": 15,
       "text": "بَلَىٰٓۚ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرٗا",
-      "translation": "But yes! Indeed, his Lord was ever of him, Seeing"
+      "translation": "But yes! Indeed, his Lord was ever of him, Seeing",
+      "transliteration": "Bala inna rabbahu kana bihi baseeran"
     },
     {
-      "number": 16,
+      "id": 16,
       "text": "فَلَآ أُقۡسِمُ بِٱلشَّفَقِ",
-      "translation": "So I swear by the twilight glow"
+      "translation": "So I swear by the twilight glow",
+      "transliteration": "Fala oqsimu bialshshafaqi"
     },
     {
-      "number": 17,
+      "id": 17,
       "text": "وَٱلَّيۡلِ وَمَا وَسَقَ",
-      "translation": "And [by] the night and what it envelops"
+      "translation": "And [by] the night and what it envelops",
+      "transliteration": "Waallayli wama wasaqa"
     },
     {
-      "number": 18,
+      "id": 18,
       "text": "وَٱلۡقَمَرِ إِذَا ٱتَّسَقَ",
-      "translation": "And [by] the moon when it becomes full"
+      "translation": "And [by] the moon when it becomes full",
+      "transliteration": "Waalqamari itha ittasaqa"
     },
     {
-      "number": 19,
+      "id": 19,
       "text": "لَتَرۡكَبُنَّ طَبَقًا عَن طَبَقٖ",
-      "translation": "[That] you will surely experience state after state"
+      "translation": "[That] you will surely experience state after state",
+      "transliteration": "Latarkabunna tabaqan AAan tabaqin"
     },
     {
-      "number": 20,
+      "id": 20,
       "text": "فَمَا لَهُمۡ لَا يُؤۡمِنُونَ",
-      "translation": "So what is [the matter] with them [that] they do not believe"
+      "translation": "So what is [the matter] with them [that] they do not believe",
+      "transliteration": "Fama lahum la yuminoona"
     },
     {
-      "number": 21,
+      "id": 21,
       "text": "وَإِذَا قُرِئَ عَلَيۡهِمُ ٱلۡقُرۡءَانُ لَا يَسۡجُدُونَۤ۩",
-      "translation": "And when the Qur'an is recited to them, they do not prostrate [to Allah]"
+      "translation": "And when the Qur'an is recited to them, they do not prostrate [to Allah]",
+      "transliteration": "Waitha quria AAalayhimu alquranu la yasjudoona"
     },
     {
-      "number": 22,
+      "id": 22,
       "text": "بَلِ ٱلَّذِينَ كَفَرُواْ يُكَذِّبُونَ",
-      "translation": "But those who have disbelieved deny"
+      "translation": "But those who have disbelieved deny",
+      "transliteration": "Bali allatheena kafaroo yukaththiboona"
     },
     {
-      "number": 23,
+      "id": 23,
       "text": "وَٱللَّهُ أَعۡلَمُ بِمَا يُوعُونَ",
-      "translation": "And Allah is most knowing of what they keep within themselves"
+      "translation": "And Allah is most knowing of what they keep within themselves",
+      "transliteration": "WaAllahu aAAlamu bima yooAAoona"
     },
     {
-      "number": 24,
+      "id": 24,
       "text": "فَبَشِّرۡهُم بِعَذَابٍ أَلِيمٍ",
-      "translation": "So give them tidings of a painful punishment"
+      "translation": "So give them tidings of a painful punishment",
+      "transliteration": "Fabashshirhum biAAathabin aleemin"
     },
     {
-      "number": 25,
+      "id": 25,
       "text": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ لَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونِۭ",
-      "translation": "Except for those who believe and do righteous deeds. For them is a reward uninterrupted"
+      "translation": "Except for those who believe and do righteous deeds. For them is a reward uninterrupted",
+      "transliteration": "Illa allatheena amanoo waAAamiloo alssalihati lahum ajrun ghayru mamnoonin"
     }
   ]
 }

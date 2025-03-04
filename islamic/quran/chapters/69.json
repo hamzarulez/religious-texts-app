@@ -1,271 +1,322 @@
 {
-  "id": "69",
-  "chapterNumber": 69,
+  "id": 69,
   "name": "الحاقة",
   "transliteration": "Al-Haqqah",
   "translation": "The Reality",
   "type": "meccan",
-  "totalVerses": 52,
+  "total_verses": 52,
   "verses": [
     {
-      "number": 1,
+      "id": 1,
       "text": "ٱلۡحَآقَّةُ",
-      "translation": "The Inevitable Reality"
+      "translation": "The Inevitable Reality",
+      "transliteration": "Alhaqqatu"
     },
     {
-      "number": 2,
+      "id": 2,
       "text": "مَا ٱلۡحَآقَّةُ",
-      "translation": "What is the Inevitable Reality"
+      "translation": "What is the Inevitable Reality",
+      "transliteration": "Ma alhaqqatu"
     },
     {
-      "number": 3,
+      "id": 3,
       "text": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡحَآقَّةُ",
-      "translation": "And what can make you know what is the Inevitable Reality"
+      "translation": "And what can make you know what is the Inevitable Reality",
+      "transliteration": "Wama adraka ma alhaqqatu"
     },
     {
-      "number": 4,
+      "id": 4,
       "text": "كَذَّبَتۡ ثَمُودُ وَعَادُۢ بِٱلۡقَارِعَةِ",
-      "translation": "Thamud and 'Aad denied the Striking Calamity"
+      "translation": "Thamud and 'Aad denied the Striking Calamity",
+      "transliteration": "Kaththabat thamoodu waAAadun bialqariAAati"
     },
     {
-      "number": 5,
+      "id": 5,
       "text": "فَأَمَّا ثَمُودُ فَأُهۡلِكُواْ بِٱلطَّاغِيَةِ",
-      "translation": "So as for Thamud, they were destroyed by the overpowering [blast]"
+      "translation": "So as for Thamud, they were destroyed by the overpowering [blast]",
+      "transliteration": "Faamma thamoodu faohlikoo bialttaghiyati"
     },
     {
-      "number": 6,
+      "id": 6,
       "text": "وَأَمَّا عَادٞ فَأُهۡلِكُواْ بِرِيحٖ صَرۡصَرٍ عَاتِيَةٖ",
-      "translation": "And as for 'Aad, they were destroyed by a screaming, violent wind"
+      "translation": "And as for 'Aad, they were destroyed by a screaming, violent wind",
+      "transliteration": "Waamma AAadun faohlikoo bireehin sarsarin AAatiyatin"
     },
     {
-      "number": 7,
+      "id": 7,
       "text": "سَخَّرَهَا عَلَيۡهِمۡ سَبۡعَ لَيَالٖ وَثَمَٰنِيَةَ أَيَّامٍ حُسُومٗاۖ فَتَرَى ٱلۡقَوۡمَ فِيهَا صَرۡعَىٰ كَأَنَّهُمۡ أَعۡجَازُ نَخۡلٍ خَاوِيَةٖ",
-      "translation": "Which Allah imposed upon them for seven nights and eight days in succession, so you would see the people therein fallen as if they were hollow trunks of palm trees"
+      "translation": "Which Allah imposed upon them for seven nights and eight days in succession, so you would see the people therein fallen as if they were hollow trunks of palm trees",
+      "transliteration": "Sakhkharaha AAalayhim sabAAa layalin wathamaniyata ayyamin husooman fatara alqawma feeha sarAAa kaannahum aAAjazu nakhlin khawiyatun"
     },
     {
-      "number": 8,
+      "id": 8,
       "text": "فَهَلۡ تَرَىٰ لَهُم مِّنۢ بَاقِيَةٖ",
-      "translation": "Then do you see of them any remains"
+      "translation": "Then do you see of them any remains",
+      "transliteration": "Fahal tara lahum min baqiyatin"
     },
     {
-      "number": 9,
+      "id": 9,
       "text": "وَجَآءَ فِرۡعَوۡنُ وَمَن قَبۡلَهُۥ وَٱلۡمُؤۡتَفِكَٰتُ بِٱلۡخَاطِئَةِ",
-      "translation": "And there came Pharaoh and those before him and the overturned cities with sin"
+      "translation": "And there came Pharaoh and those before him and the overturned cities with sin",
+      "transliteration": "Wajaa firAAawnu waman qablahu waalmutafikatu bialkhatiati"
     },
     {
-      "number": 10,
+      "id": 10,
       "text": "فَعَصَوۡاْ رَسُولَ رَبِّهِمۡ فَأَخَذَهُمۡ أَخۡذَةٗ رَّابِيَةً",
-      "translation": "And they disobeyed the messenger of their Lord, so He seized them with a seizure exceeding [in severity]"
+      "translation": "And they disobeyed the messenger of their Lord, so He seized them with a seizure exceeding [in severity]",
+      "transliteration": "FaAAasaw rasoola rabbihim faakhathahum akhthatan rabiyatan"
     },
     {
-      "number": 11,
+      "id": 11,
       "text": "إِنَّا لَمَّا طَغَا ٱلۡمَآءُ حَمَلۡنَٰكُمۡ فِي ٱلۡجَارِيَةِ",
-      "translation": "Indeed, when the water overflowed, We carried your ancestors in the sailing ship"
+      "translation": "Indeed, when the water overflowed, We carried your ancestors in the sailing ship",
+      "transliteration": "Inna lamma tagha almao hamalnakum fee aljariyati"
     },
     {
-      "number": 12,
+      "id": 12,
       "text": "لِنَجۡعَلَهَا لَكُمۡ تَذۡكِرَةٗ وَتَعِيَهَآ أُذُنٞ وَٰعِيَةٞ",
-      "translation": "That We might make it for you a reminder and [that] a conscious ear would be conscious of it"
+      "translation": "That We might make it for you a reminder and [that] a conscious ear would be conscious of it",
+      "transliteration": "LinajAAalaha lakum tathkiratan wataAAiyaha othunun waAAiyatun"
     },
     {
-      "number": 13,
+      "id": 13,
       "text": "فَإِذَا نُفِخَ فِي ٱلصُّورِ نَفۡخَةٞ وَٰحِدَةٞ",
-      "translation": "Then when the Horn is blown with one blast"
+      "translation": "Then when the Horn is blown with one blast",
+      "transliteration": "Faitha nufikha fee alssoori nafkhatun wahidatun"
     },
     {
-      "number": 14,
+      "id": 14,
       "text": "وَحُمِلَتِ ٱلۡأَرۡضُ وَٱلۡجِبَالُ فَدُكَّتَا دَكَّةٗ وَٰحِدَةٗ",
-      "translation": "And the earth and the mountains are lifted and leveled with one blow"
+      "translation": "And the earth and the mountains are lifted and leveled with one blow",
+      "transliteration": "Wahumilati alardu waaljibalu fadukkata dakkatan wahidatan"
     },
     {
-      "number": 15,
+      "id": 15,
       "text": "فَيَوۡمَئِذٖ وَقَعَتِ ٱلۡوَاقِعَةُ",
-      "translation": "Then on that Day, the Resurrection will occur"
+      "translation": "Then on that Day, the Resurrection will occur",
+      "transliteration": "Fayawmaithin waqaAAati alwaqiAAatu"
     },
     {
-      "number": 16,
+      "id": 16,
       "text": "وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِيَ يَوۡمَئِذٖ وَاهِيَةٞ",
-      "translation": "And the heaven will split [open], for that Day it is infirm"
+      "translation": "And the heaven will split [open], for that Day it is infirm",
+      "transliteration": "Wainshaqqati alssamao fahiya yawmaithin wahiyatun"
     },
     {
-      "number": 17,
+      "id": 17,
       "text": "وَٱلۡمَلَكُ عَلَىٰٓ أَرۡجَآئِهَاۚ وَيَحۡمِلُ عَرۡشَ رَبِّكَ فَوۡقَهُمۡ يَوۡمَئِذٖ ثَمَٰنِيَةٞ",
-      "translation": "And the angels are at its edges. And there will bear the Throne of your Lord above them, that Day, eight [of them]"
+      "translation": "And the angels are at its edges. And there will bear the Throne of your Lord above them, that Day, eight [of them]",
+      "transliteration": "Waalmalaku AAala arjaiha wayahmilu AAarsha rabbika fawqahum yawmaithin thamaniyatun"
     },
     {
-      "number": 18,
+      "id": 18,
       "text": "يَوۡمَئِذٖ تُعۡرَضُونَ لَا تَخۡفَىٰ مِنكُمۡ خَافِيَةٞ",
-      "translation": "That Day, you will be exhibited [for judgement]; not hidden among you is anything concealed"
+      "translation": "That Day, you will be exhibited [for judgement]; not hidden among you is anything concealed",
+      "transliteration": "Yawmaithin tuAAradoona la takhfa minkum khafiyatun"
     },
     {
-      "number": 19,
+      "id": 19,
       "text": "فَأَمَّا مَنۡ أُوتِيَ كِتَٰبَهُۥ بِيَمِينِهِۦ فَيَقُولُ هَآؤُمُ ٱقۡرَءُواْ كِتَٰبِيَهۡ",
-      "translation": "So as for he who is given his record in his right hand, he will say, \"Here, read my record"
+      "translation": "So as for he who is given his record in his right hand, he will say, \"Here, read my record",
+      "transliteration": "Faamma man ootiya kitabahu biyameenihi fayaqoolu haomu iqraoo kitabiyah"
     },
     {
-      "number": 20,
+      "id": 20,
       "text": "إِنِّي ظَنَنتُ أَنِّي مُلَٰقٍ حِسَابِيَهۡ",
-      "translation": "Indeed, I was certain that I would be meeting my account"
+      "translation": "Indeed, I was certain that I would be meeting my account",
+      "transliteration": "Innee thanantu annee mulaqin hisabiyah"
     },
     {
-      "number": 21,
+      "id": 21,
       "text": "فَهُوَ فِي عِيشَةٖ رَّاضِيَةٖ",
-      "translation": "So he will be in a pleasant life"
+      "translation": "So he will be in a pleasant life",
+      "transliteration": "Fahuwa fee AAeeshatin radiyatin"
     },
     {
-      "number": 22,
+      "id": 22,
       "text": "فِي جَنَّةٍ عَالِيَةٖ",
-      "translation": "In an elevated garden"
+      "translation": "In an elevated garden",
+      "transliteration": "Fee jannatin AAaliyatin"
     },
     {
-      "number": 23,
+      "id": 23,
       "text": "قُطُوفُهَا دَانِيَةٞ",
-      "translation": "Its [fruit] to be picked hanging near"
+      "translation": "Its [fruit] to be picked hanging near",
+      "transliteration": "Qutoofuha daniyatun"
     },
     {
-      "number": 24,
+      "id": 24,
       "text": "كُلُواْ وَٱشۡرَبُواْ هَنِيٓـَٔۢا بِمَآ أَسۡلَفۡتُمۡ فِي ٱلۡأَيَّامِ ٱلۡخَالِيَةِ",
-      "translation": "[They will be told], \"Eat and drink in satisfaction for what you put forth in the days past"
+      "translation": "[They will be told], \"Eat and drink in satisfaction for what you put forth in the days past",
+      "transliteration": "Kuloo waishraboo haneean bima aslaftum fee alayyami alkhaliyati"
     },
     {
-      "number": 25,
+      "id": 25,
       "text": "وَأَمَّا مَنۡ أُوتِيَ كِتَٰبَهُۥ بِشِمَالِهِۦ فَيَقُولُ يَٰلَيۡتَنِي لَمۡ أُوتَ كِتَٰبِيَهۡ",
-      "translation": "But as for he who is given his record in his left hand, he will say, \"Oh, I wish I had not been given my record"
+      "translation": "But as for he who is given his record in his left hand, he will say, \"Oh, I wish I had not been given my record",
+      "transliteration": "Waamma man ootiya kitabahu bishimalihi fayaqoolu ya laytanee lam oota kitabiyah"
     },
     {
-      "number": 26,
+      "id": 26,
       "text": "وَلَمۡ أَدۡرِ مَا حِسَابِيَهۡ",
-      "translation": "And had not known what is my account"
+      "translation": "And had not known what is my account",
+      "transliteration": "Walam adri ma hisabiyah"
     },
     {
-      "number": 27,
+      "id": 27,
       "text": "يَٰلَيۡتَهَا كَانَتِ ٱلۡقَاضِيَةَ",
-      "translation": "I wish my death had been the decisive one"
+      "translation": "I wish my death had been the decisive one",
+      "transliteration": "Ya laytaha kanati alqadiyatu"
     },
     {
-      "number": 28,
+      "id": 28,
       "text": "مَآ أَغۡنَىٰ عَنِّي مَالِيَهۡۜ",
-      "translation": "My wealth has not availed me"
+      "translation": "My wealth has not availed me",
+      "transliteration": "Ma aghna AAannee maliyah"
     },
     {
-      "number": 29,
+      "id": 29,
       "text": "هَلَكَ عَنِّي سُلۡطَٰنِيَهۡ",
-      "translation": "Gone from me is my authority"
+      "translation": "Gone from me is my authority",
+      "transliteration": "Halaka AAannee sultaniyah"
     },
     {
-      "number": 30,
+      "id": 30,
       "text": "خُذُوهُ فَغُلُّوهُ",
-      "translation": "[Allah will say], \"Seize him and shackle him"
+      "translation": "[Allah will say], \"Seize him and shackle him",
+      "transliteration": "Khuthoohu faghulloohu"
     },
     {
-      "number": 31,
+      "id": 31,
       "text": "ثُمَّ ٱلۡجَحِيمَ صَلُّوهُ",
-      "translation": "Then into Hellfire drive him"
+      "translation": "Then into Hellfire drive him",
+      "transliteration": "Thumma aljaheema salloohu"
     },
     {
-      "number": 32,
+      "id": 32,
       "text": "ثُمَّ فِي سِلۡسِلَةٖ ذَرۡعُهَا سَبۡعُونَ ذِرَاعٗا فَٱسۡلُكُوهُ",
-      "translation": "Then into a chain whose length is seventy cubits insert him"
+      "translation": "Then into a chain whose length is seventy cubits insert him",
+      "transliteration": "Thumma fee silsilatin tharAAuha sabAAoona thiraAAan faoslukoohu"
     },
     {
-      "number": 33,
+      "id": 33,
       "text": "إِنَّهُۥ كَانَ لَا يُؤۡمِنُ بِٱللَّهِ ٱلۡعَظِيمِ",
-      "translation": "Indeed, he did not used to believe in Allah, the Most Great"
+      "translation": "Indeed, he did not used to believe in Allah, the Most Great",
+      "transliteration": "Innahu kana la yuminu biAllahi alAAatheemi"
     },
     {
-      "number": 34,
+      "id": 34,
       "text": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ",
-      "translation": "Nor did he encourage the feeding of the poor"
+      "translation": "Nor did he encourage the feeding of the poor",
+      "transliteration": "Wala yahuddu AAala taAAami almiskeeni"
     },
     {
-      "number": 35,
+      "id": 35,
       "text": "فَلَيۡسَ لَهُ ٱلۡيَوۡمَ هَٰهُنَا حَمِيمٞ",
-      "translation": "So there is not for him here this Day any devoted friend"
+      "translation": "So there is not for him here this Day any devoted friend",
+      "transliteration": "Falaysa lahu alyawma hahuna hameemun"
     },
     {
-      "number": 36,
+      "id": 36,
       "text": "وَلَا طَعَامٌ إِلَّا مِنۡ غِسۡلِينٖ",
-      "translation": "Nor any food except from the discharge of wounds"
+      "translation": "Nor any food except from the discharge of wounds",
+      "transliteration": "Wala taAAamun illa min ghisleenin"
     },
     {
-      "number": 37,
+      "id": 37,
       "text": "لَّا يَأۡكُلُهُۥٓ إِلَّا ٱلۡخَٰطِـُٔونَ",
-      "translation": "None will eat it except the sinners"
+      "translation": "None will eat it except the sinners",
+      "transliteration": "La yakuluhu illa alkhatioona"
     },
     {
-      "number": 38,
+      "id": 38,
       "text": "فَلَآ أُقۡسِمُ بِمَا تُبۡصِرُونَ",
-      "translation": "So I swear by what you see"
+      "translation": "So I swear by what you see",
+      "transliteration": "Fala oqsimu bima tubsiroona"
     },
     {
-      "number": 39,
+      "id": 39,
       "text": "وَمَا لَا تُبۡصِرُونَ",
-      "translation": "And what you do not see"
+      "translation": "And what you do not see",
+      "transliteration": "Wama la tubsiroona"
     },
     {
-      "number": 40,
+      "id": 40,
       "text": "إِنَّهُۥ لَقَوۡلُ رَسُولٖ كَرِيمٖ",
-      "translation": "[That] indeed, the Qur'an is the word of a noble Messenger"
+      "translation": "[That] indeed, the Qur'an is the word of a noble Messenger",
+      "transliteration": "Innahu laqawlu rasoolin kareemin"
     },
     {
-      "number": 41,
+      "id": 41,
       "text": "وَمَا هُوَ بِقَوۡلِ شَاعِرٖۚ قَلِيلٗا مَّا تُؤۡمِنُونَ",
-      "translation": "And it is not the word of a poet; little do you believe"
+      "translation": "And it is not the word of a poet; little do you believe",
+      "transliteration": "Wama huwa biqawli shaAAirin qaleelan ma tuminoona"
     },
     {
-      "number": 42,
+      "id": 42,
       "text": "وَلَا بِقَوۡلِ كَاهِنٖۚ قَلِيلٗا مَّا تَذَكَّرُونَ",
-      "translation": "Nor the word of a soothsayer; little do you remember"
+      "translation": "Nor the word of a soothsayer; little do you remember",
+      "transliteration": "Wala biqawli kahinin qaleelan ma tathakkaroona"
     },
     {
-      "number": 43,
+      "id": 43,
       "text": "تَنزِيلٞ مِّن رَّبِّ ٱلۡعَٰلَمِينَ",
-      "translation": "[It is] a revelation from the Lord of the worlds"
+      "translation": "[It is] a revelation from the Lord of the worlds",
+      "transliteration": "Tanzeelun min rabbi alAAalameena"
     },
     {
-      "number": 44,
+      "id": 44,
       "text": "وَلَوۡ تَقَوَّلَ عَلَيۡنَا بَعۡضَ ٱلۡأَقَاوِيلِ",
-      "translation": "And if Muhammad had made up about Us some [false] sayings"
+      "translation": "And if Muhammad had made up about Us some [false] sayings",
+      "transliteration": "Walaw taqawwala AAalayna baAAda alaqaweeli"
     },
     {
-      "number": 45,
+      "id": 45,
       "text": "لَأَخَذۡنَا مِنۡهُ بِٱلۡيَمِينِ",
-      "translation": "We would have seized him by the right hand"
+      "translation": "We would have seized him by the right hand",
+      "transliteration": "Laakhathna minhu bialyameeni"
     },
     {
-      "number": 46,
+      "id": 46,
       "text": "ثُمَّ لَقَطَعۡنَا مِنۡهُ ٱلۡوَتِينَ",
-      "translation": "Then We would have cut from him the aorta"
+      "translation": "Then We would have cut from him the aorta",
+      "transliteration": "Thumma laqataAAna minhu alwateena"
     },
     {
-      "number": 47,
+      "id": 47,
       "text": "فَمَا مِنكُم مِّنۡ أَحَدٍ عَنۡهُ حَٰجِزِينَ",
-      "translation": "And there is no one of you who could prevent [Us] from him"
+      "translation": "And there is no one of you who could prevent [Us] from him",
+      "transliteration": "Fama minkum min ahadin AAanhu hajizeena"
     },
     {
-      "number": 48,
+      "id": 48,
       "text": "وَإِنَّهُۥ لَتَذۡكِرَةٞ لِّلۡمُتَّقِينَ",
-      "translation": "And indeed, the Qur'an is a reminder for the righteous"
+      "translation": "And indeed, the Qur'an is a reminder for the righteous",
+      "transliteration": "Wainnahu latathkiratun lilmuttaqeena"
     },
     {
-      "number": 49,
+      "id": 49,
       "text": "وَإِنَّا لَنَعۡلَمُ أَنَّ مِنكُم مُّكَذِّبِينَ",
-      "translation": "And indeed, We know that among you are deniers"
+      "translation": "And indeed, We know that among you are deniers",
+      "transliteration": "Wainna lanaAAlamu anna minkum mukaththibeena"
     },
     {
-      "number": 50,
+      "id": 50,
       "text": "وَإِنَّهُۥ لَحَسۡرَةٌ عَلَى ٱلۡكَٰفِرِينَ",
-      "translation": "And indeed, it will be [a cause of] regret upon the disbelievers"
+      "translation": "And indeed, it will be [a cause of] regret upon the disbelievers",
+      "transliteration": "Wainnahu lahasratun AAala alkafireena"
     },
     {
-      "number": 51,
+      "id": 51,
       "text": "وَإِنَّهُۥ لَحَقُّ ٱلۡيَقِينِ",
-      "translation": "And indeed, it is the truth of certainty"
+      "translation": "And indeed, it is the truth of certainty",
+      "transliteration": "Wainnahu lahaqqu alyaqeeni"
     },
     {
-      "number": 52,
+      "id": 52,
       "text": "فَسَبِّحۡ بِٱسۡمِ رَبِّكَ ٱلۡعَظِيمِ",
-      "translation": "So exalt the name of your Lord, the Most Great"
+      "translation": "So exalt the name of your Lord, the Most Great",
+      "transliteration": "Fasabbih biismi rabbika alAAatheemi"
     }
   ]
 }

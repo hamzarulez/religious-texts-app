@@ -1,66 +1,76 @@
 {
-  "id": "93",
-  "chapterNumber": 93,
+  "id": 93,
   "name": "الضحى",
   "transliteration": "Ad-Duhaa",
   "translation": "The Morning Hours",
   "type": "meccan",
-  "totalVerses": 11,
+  "total_verses": 11,
   "verses": [
     {
-      "number": 1,
+      "id": 1,
       "text": "وَٱلضُّحَىٰ",
-      "translation": "By the morning brightness"
+      "translation": "By the morning brightness",
+      "transliteration": "Waaldduha"
     },
     {
-      "number": 2,
+      "id": 2,
       "text": "وَٱلَّيۡلِ إِذَا سَجَىٰ",
-      "translation": "And [by] the night when it covers with darkness"
+      "translation": "And [by] the night when it covers with darkness",
+      "transliteration": "Waallayli itha saja"
     },
     {
-      "number": 3,
+      "id": 3,
       "text": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
-      "translation": "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you]"
+      "translation": "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you]",
+      "transliteration": "Ma waddaAAaka rabbuka wama qala"
     },
     {
-      "number": 4,
+      "id": 4,
       "text": "وَلَلۡأٓخِرَةُ خَيۡرٞ لَّكَ مِنَ ٱلۡأُولَىٰ",
-      "translation": "And the Hereafter is better for you than the first [life]"
+      "translation": "And the Hereafter is better for you than the first [life]",
+      "transliteration": "Walalakhiratu khayrun laka mina aloola"
     },
     {
-      "number": 5,
+      "id": 5,
       "text": "وَلَسَوۡفَ يُعۡطِيكَ رَبُّكَ فَتَرۡضَىٰٓ",
-      "translation": "And your Lord is going to give you, and you will be satisfied"
+      "translation": "And your Lord is going to give you, and you will be satisfied",
+      "transliteration": "Walasawfa yuAAteeka rabbuka fatarda"
     },
     {
-      "number": 6,
+      "id": 6,
       "text": "أَلَمۡ يَجِدۡكَ يَتِيمٗا فَـَٔاوَىٰ",
-      "translation": "Did He not find you an orphan and give [you] refuge"
+      "translation": "Did He not find you an orphan and give [you] refuge",
+      "transliteration": "Alam yajidka yateeman faawa"
     },
     {
-      "number": 7,
+      "id": 7,
       "text": "وَوَجَدَكَ ضَآلّٗا فَهَدَىٰ",
-      "translation": "And He found you lost and guided [you]"
+      "translation": "And He found you lost and guided [you]",
+      "transliteration": "Wawajadaka dallan fahada"
     },
     {
-      "number": 8,
+      "id": 8,
       "text": "وَوَجَدَكَ عَآئِلٗا فَأَغۡنَىٰ",
-      "translation": "And He found you poor and made [you] self-sufficient"
+      "translation": "And He found you poor and made [you] self-sufficient",
+      "transliteration": "Wawajadaka AAailan faaghna"
     },
     {
-      "number": 9,
+      "id": 9,
       "text": "فَأَمَّا ٱلۡيَتِيمَ فَلَا تَقۡهَرۡ",
-      "translation": "So as for the orphan, do not oppress [him]"
+      "translation": "So as for the orphan, do not oppress [him]",
+      "transliteration": "Faamma alyateema fala taqhar"
     },
     {
-      "number": 10,
+      "id": 10,
       "text": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنۡهَرۡ",
-      "translation": "And as for the petitioner, do not repel [him]"
+      "translation": "And as for the petitioner, do not repel [him]",
+      "transliteration": "Waamma alssaila fala tanhar"
     },
     {
-      "number": 11,
+      "id": 11,
       "text": "وَأَمَّا بِنِعۡمَةِ رَبِّكَ فَحَدِّثۡ",
-      "translation": "But as for the favor of your Lord, report [it]"
+      "translation": "But as for the favor of your Lord, report [it]",
+      "transliteration": "Waamma biniAAmati rabbika fahaddith"
     }
   ]
 }
