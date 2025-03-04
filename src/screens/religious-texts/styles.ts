@@ -1,0 +1,332 @@
+import { StyleSheet, Platform } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  contentContainer: {
+    flex: 1,
+  },
+  scrollContent: {
+    flexGrow: 1,
+  },
+  detailHeader: {
+    paddingTop: Platform.OS === 'ios' ? 50 : 40,
+    paddingBottom: 20,
+    width: '100%',
+  },
+  detailHeaderContent: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+  },
+  backButton: {
+    padding: 8,
+    marginRight: 16,
+  },
+  detailTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: 'white',
+    flex: 1,
+  },
+  contentWrapper: {
+    flex: 1,
+    backgroundColor: '#fff',
+    padding: 8,
+    paddingTop: Platform.OS === 'ios' ? 60 : 8, // Extra padding for iOS
+  },
+  verseItem: {
+    flexDirection: 'row',
+    paddingVertical: 6,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+  },
+  verseNumberContainer: {
+    width: 24,
+    marginRight: 8,
+  },
+  verseNumber: {
+    fontSize: 16,
+    color: '#43A047',
+    fontWeight: '500',
+  },
+  verseContent: {
+    flex: 1,
+  },
+  arabicText: {
+    fontSize: 22,
+    lineHeight: 30,
+    marginBottom: 2,
+    textAlign: 'right',
+    color: '#000',
+    fontFamily: Platform.OS === 'ios' ? 'Arial' : 'normal',
+  },
+  translationText: {
+    fontSize: 16,
+    lineHeight: 20,
+    color: '#444',
+  },
+  chaptersWrapper: {
+    flex: 1,
+    backgroundColor: '#fff',
+    padding: 16,
+    paddingTop: Platform.OS === 'ios' ? 60 : 16, // Extra padding for iOS
+  },
+  chapterCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    marginBottom: 16,
+    padding: 16,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 3,
+  },
+  chapterNumberContainer: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: '#f0f0f0',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 16,
+  },
+  chapterNumber: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#43A047',
+  },
+  chapterDetails: {
+    flex: 1,
+  },
+  chapterTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 4,
+  },
+  arabicChapterTitle: {
+    fontSize: 20,
+    color: '#666',
+    marginBottom: 4,
+    textAlign: 'right',
+  },
+  chapterDescription: {
+    fontSize: 14,
+    color: '#888',
+  },
+  testamentSection: {
+    marginBottom: 24,
+    backgroundColor: '#fff',
+    borderRadius: 16,
+    overflow: 'hidden',
+  },
+  testamentTitle: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#2e3d49',
+    marginBottom: 8,
+    paddingHorizontal: 16,
+    paddingTop: 16,
+  },
+  testamentDescription: {
+    fontSize: 16,
+    color: '#6c757d',
+    lineHeight: 22,
+    paddingHorizontal: 16,
+    paddingBottom: 16,
+  },
+  booksContainer: {
+    padding: 16,
+  },
+  bookItem: {
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    marginBottom: 16,
+    padding: 20,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 3,
+    borderLeftWidth: 4,
+    borderLeftColor: '#43A047',
+  },
+  bookTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#2e3d49',
+    marginBottom: 6,
+  },
+  bookDescription: {
+    fontSize: 14,
+    color: '#6c757d',
+    lineHeight: 20,
+  },
+  hadithChapter: {
+    marginBottom: 24,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+    paddingBottom: 16,
+  },
+  hadithChapterTitle: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 8,
+  },
+  hadithChapterDescription: {
+    fontSize: 16,
+    color: '#666',
+    marginBottom: 16,
+    fontStyle: 'italic',
+  },
+  hadithItem: {
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 16,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 3,
+  },
+  hadithNumber: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#43A047',
+    marginBottom: 8,
+  },
+  narratorText: {
+    fontSize: 14,
+    color: '#666',
+    fontStyle: 'italic',
+  },
+  hadithText: {
+    fontSize: 16,
+    color: '#333',
+    lineHeight: 24,
+  },
+  bookSection: {
+    marginBottom: 24,
+    backgroundColor: '#fff',
+    borderRadius: 16,
+    overflow: 'hidden',
+  },
+  chaptersContainer: {
+    padding: 16,
+  },
+  chapterItem: {
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    marginBottom: 12,
+    padding: 16,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 2,
+    borderLeftWidth: 4,
+    borderLeftColor: '#43A047',
+  },
+  chapterTitle: {
+    fontSize: 16,
+    color: '#2e3d49',
+    fontWeight: '600',
+  },
+  chapterText: {
+    fontSize: 16,
+    color: '#333',
+    lineHeight: 24,
+    padding: 16,
+  },
+  errorText: {
+    textAlign: 'center',
+    color: '#666',
+    fontSize: 16,
+    padding: 20,
+  },
+  // Styles for Summa Theologica
+  partSection: {
+    marginBottom: 24,
+    backgroundColor: '#fff',
+    borderRadius: 16,
+    overflow: 'hidden',
+  },
+  partTitle: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#2e3d49',
+    marginBottom: 8,
+    paddingHorizontal: 16,
+    paddingTop: 16,
+  },
+  questionsContainer: {
+    padding: 16,
+  },
+  questionItem: {
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    marginBottom: 12,
+    padding: 16,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 2,
+    borderLeftWidth: 4,
+    borderLeftColor: '#43A047',
+  },
+  questionTitle: {
+    fontSize: 16,
+    color: '#2e3d49',
+    fontWeight: '600',
+  },
+  // Styles for quran chapter/verse content
+  quranContentWrapper: {
+    padding: 0,
+    backgroundColor: '#fff',
+  },
+  quranVerseItem: {
+    flexDirection: 'row',
+    marginBottom: 16,
+    paddingVertical: 8,
+    borderBottomWidth: 1,
+    borderBottomColor: '#f0f0f0',
+  },
+  quranVerseNumber: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: '#43A047',
+    width: 35,
+  },
+  quranVerseContent: {
+    flex: 1,
+  },
+  quranVerseText: {
+    fontSize: 16,
+    lineHeight: 20,
+    color: '#2e3d49',
+  },
+}); 

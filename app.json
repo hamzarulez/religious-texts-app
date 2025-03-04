@@ -4,25 +4,86 @@
     "slug": "Triad-of-Faith",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.yourcompany.triadoffaith",
+      "buildNumber": "1.0.0"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+      "package": "com.yourcompany.triadoffaith",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "enableDynamicCodeLoading": true
+          },
+          "android": {
+            "enableDynamicCodeLoading": true
+          }
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*",
+      "assets/fonts/*",
+      "./node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/*"
+    ],
+    "fonts": [
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/AntDesign.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Entypo.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/EvilIcons.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Feather.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Fontisto.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Foundation.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialIcons.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Octicons.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"
+      },
+      {
+        "asset": "@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Zocial.ttf"
+      }
+    ]
   }
 }
