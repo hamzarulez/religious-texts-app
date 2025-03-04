@@ -1,13 +1,9 @@
 import * as admin from 'firebase-admin';
-import * as path from 'path';
+import * as serviceAccount from '../service-account.json';
 
-// Initialize Firebase Admin
 if (!admin.apps.length) {
-  const serviceAccount = require(path.join(__dirname, 'serviceAccountKey.json'));
-  
   admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
-    // databaseURL: "https://triadoffaith.firebaseio.com"
+    credential: admin.credential.cert(serviceAccount as admin.ServiceAccount)
   });
 }
 

@@ -12,12 +12,10 @@
     "build:android": "eas build --platform android",
     "submit:ios": "eas submit --platform ios",
     "submit:android": "eas submit --platform android",
-    "upload-quran": "ts-node scripts/upload-quran.ts",
-    "upload-chapter": "ts-node scripts/upload-chapter.ts",
-    "upload-quran-json": "ts-node scripts/upload-quran-json.ts",
-    "upload-hadith-json": "ts-node scripts/upload-hadith-json.ts",
     "generate-static": "ts-node scripts/generate-static-content.ts",
-    "deploy": "npm run generate-static && git add static-content && git commit -m 'Update content' && git push"
+    "deploy-content": "npm run generate-static && git add static-content && git commit -m \"Update religious texts content\" && git push",
+    "upload-quran-json": "ts-node scripts/upload-quran-json.ts",
+    "upload-hadith-json": "ts-node scripts/upload-hadith-json.ts"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.4",
@@ -43,6 +41,7 @@
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-transform-dynamic-import": "^7.25.9",
     "@types/node": "^20.0.0",
+    "@types/node-fetch": "^2.6.12",
     "@types/react": "~18.3.12",
     "metro-config": "^0.81.0",
     "ts-node": "^10.9.1",

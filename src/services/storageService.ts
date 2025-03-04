@@ -2,8 +2,7 @@ export class StorageService {
   private baseUrl: string;
 
   constructor() {
-    // Replace with your GitHub Pages URL
-    this.baseUrl = 'https://[username].github.io/religious-texts-app';
+    this.baseUrl = 'https://hamzarulez.github.io/religious-texts-app';
   }
 
   async getContent(religion: string, book: string, chapter: string): Promise<any> {
