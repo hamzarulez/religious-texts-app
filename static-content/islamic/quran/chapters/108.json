@@ -1,0 +1,26 @@
+{
+  "id": "108",
+  "chapterNumber": 108,
+  "name": "الكوثر",
+  "transliteration": "Al-Kawthar",
+  "translation": "The Abundance",
+  "type": "meccan",
+  "totalVerses": 3,
+  "verses": [
+    {
+      "number": 1,
+      "text": "إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ",
+      "translation": "Indeed, We have granted you, [O Muhammad], al-Kawthar"
+    },
+    {
+      "number": 2,
+      "text": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ",
+      "translation": "So pray to your Lord and sacrifice [to Him alone]"
+    },
+    {
+      "number": 3,
+      "text": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ",
+      "translation": "Indeed, your enemy is the one cut off"
+    }
+  ]
+}
