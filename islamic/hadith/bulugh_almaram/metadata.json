@@ -1,0 +1,106 @@
+{
+  "id": "bulugh_almaram",
+  "title": "Bulugh al-Maram",
+  "description": "A collection of hadith pertaining to Islamic jurisprudence, compiled by Ibn Hajar al-Asqalani",
+  "language": "en",
+  "lastUpdated": "2025-03-04T05:14:13.320Z",
+  "totalChapters": 16,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Book of Purification",
+      "arabicTitle": "كتاب الطهارة",
+      "totalHadiths": 179
+    },
+    {
+      "id": 2,
+      "title": "The Book of Prayer",
+      "arabicTitle": "كتاب الصلاة",
+      "totalHadiths": 461
+    },
+    {
+      "id": 3,
+      "title": "Funerals",
+      "arabicTitle": "كتاب الجنائز",
+      "totalHadiths": 66
+    },
+    {
+      "id": 4,
+      "title": "The Book of Zakah",
+      "arabicTitle": "كتاب الزكاة",
+      "totalHadiths": 51
+    },
+    {
+      "id": 5,
+      "title": "Fasting",
+      "arabicTitle": "كتاب الصيام",
+      "totalHadiths": 58
+    },
+    {
+      "id": 6,
+      "title": "Hajj",
+      "arabicTitle": "كتاب الحج",
+      "totalHadiths": 74
+    },
+    {
+      "id": 7,
+      "title": "Business Transactions",
+      "arabicTitle": "كتاب البيوع",
+      "totalHadiths": 233
+    },
+    {
+      "id": 8,
+      "title": "Marriage",
+      "arabicTitle": "كتاب النكاح",
+      "totalHadiths": 222
+    },
+    {
+      "id": 9,
+      "title": "Crimes (Qisas or Retaliation)",
+      "arabicTitle": "كتاب الجنايات",
+      "totalHadiths": 47
+    },
+    {
+      "id": 10,
+      "title": "Hudud",
+      "arabicTitle": "كتاب الحدود",
+      "totalHadiths": 57
+    },
+    {
+      "id": 11,
+      "title": "Jihad",
+      "arabicTitle": "كتاب الجهاد",
+      "totalHadiths": 63
+    },
+    {
+      "id": 12,
+      "title": "Food",
+      "arabicTitle": "كتاب الأطعمة",
+      "totalHadiths": 44
+    },
+    {
+      "id": 13,
+      "title": "Oaths and Vows",
+      "arabicTitle": "كتاب الأيمان والنذور",
+      "totalHadiths": 23
+    },
+    {
+      "id": 14,
+      "title": "Judgments",
+      "arabicTitle": "كتاب القضاء",
+      "totalHadiths": 36
+    },
+    {
+      "id": 15,
+      "title": "Emancipation",
+      "arabicTitle": "كتاب العتق",
+      "totalHadiths": 20
+    },
+    {
+      "id": 16,
+      "title": "The Comprehensive Book",
+      "arabicTitle": "كتاب الجامع",
+      "totalHadiths": 133
+    }
+  ]
+}

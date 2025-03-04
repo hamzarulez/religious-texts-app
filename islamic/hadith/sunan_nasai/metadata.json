@@ -1,0 +1,322 @@
+{
+  "id": "sunan_nasai",
+  "title": "Sunan an-Nasa'i",
+  "description": "One of the six major hadith collections, known for its strict classification",
+  "language": "en",
+  "lastUpdated": "2025-03-04T05:14:12.697Z",
+  "totalChapters": 52,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Book of Purification",
+      "arabicTitle": "كتاب الطهارة",
+      "totalHadiths": 325
+    },
+    {
+      "id": 2,
+      "title": "The Book of Water",
+      "arabicTitle": "كتاب المياه",
+      "totalHadiths": 23
+    },
+    {
+      "id": 3,
+      "title": "The Book of Menstruation and Istihadah",
+      "arabicTitle": "كتاب الحيض والاستحاضة",
+      "totalHadiths": 48
+    },
+    {
+      "id": 4,
+      "title": "The Book of Ghusl and Tayammum",
+      "arabicTitle": "كتاب الغسل والتيمم",
+      "totalHadiths": 53
+    },
+    {
+      "id": 5,
+      "title": "The Book of Salah",
+      "arabicTitle": "كتاب الصلاة",
+      "totalHadiths": 46
+    },
+    {
+      "id": 6,
+      "title": "The Book of the Times (of Prayer)",
+      "arabicTitle": "كتاب المواقيت",
+      "totalHadiths": 132
+    },
+    {
+      "id": 7,
+      "title": "The Book of the Adhan (The Call to Prayer)",
+      "arabicTitle": "كتاب الأذان",
+      "totalHadiths": 62
+    },
+    {
+      "id": 8,
+      "title": "The Book of the Masjids",
+      "arabicTitle": "كتاب المساجد",
+      "totalHadiths": 54
+    },
+    {
+      "id": 9,
+      "title": "The Book of the Qiblah",
+      "arabicTitle": "كتاب القبلة",
+      "totalHadiths": 35
+    },
+    {
+      "id": 10,
+      "title": "The Book of Leading the Prayer (Al-Imamah)",
+      "arabicTitle": "كتاب الإمامة",
+      "totalHadiths": 99
+    },
+    {
+      "id": 11,
+      "title": "The Book of the Commencement of the Prayer",
+      "arabicTitle": "كتاب الافتتاح",
+      "totalHadiths": 153
+    },
+    {
+      "id": 12,
+      "title": "The Book of The At-Tatbiq (Clasping One's Hands Together)",
+      "arabicTitle": "كتاب التطبيق",
+      "totalHadiths": 150
+    },
+    {
+      "id": 13,
+      "title": "The Book of Forgetfulness (In Prayer)",
+      "arabicTitle": "كتاب السهو",
+      "totalHadiths": 188
+    },
+    {
+      "id": 14,
+      "title": "The Book of Jumu'ah (Friday Prayer)",
+      "arabicTitle": "كتاب الجمعة",
+      "totalHadiths": 69
+    },
+    {
+      "id": 15,
+      "title": "The Book of Shortening the Prayer When Traveling",
+      "arabicTitle": "كتاب تقصير الصلاة فى السفر",
+      "totalHadiths": 26
+    },
+    {
+      "id": 16,
+      "title": "The Book of Eclipses",
+      "arabicTitle": "كتاب الكسوف",
+      "totalHadiths": 45
+    },
+    {
+      "id": 17,
+      "title": "The Book of Praying for Rain (Al-Istisqa')",
+      "arabicTitle": "كتاب الاستسقاء",
+      "totalHadiths": 25
+    },
+    {
+      "id": 18,
+      "title": "The Book of the Fear Prayer",
+      "arabicTitle": "كتاب صلاة الخوف",
+      "totalHadiths": 27
+    },
+    {
+      "id": 19,
+      "title": "The Book of the Prayer for the Two 'Eids",
+      "arabicTitle": "كتاب صلاة العيدين",
+      "totalHadiths": 42
+    },
+    {
+      "id": 20,
+      "title": "The Book of Qiyam Al-Lail (The Night Prayer) and Voluntary Prayers During the Day",
+      "arabicTitle": "كتاب قيام الليل وتطوع النهار",
+      "totalHadiths": 220
+    },
+    {
+      "id": 21,
+      "title": "The Book of Funerals",
+      "arabicTitle": "كتاب الجنائز",
+      "totalHadiths": 272
+    },
+    {
+      "id": 22,
+      "title": "The Book of Fasting",
+      "arabicTitle": "كتاب الصيام",
+      "totalHadiths": 345
+    },
+    {
+      "id": 23,
+      "title": "The Book of Zakah",
+      "arabicTitle": "كتاب الزكاة",
+      "totalHadiths": 184
+    },
+    {
+      "id": 24,
+      "title": "The Book of Hajj",
+      "arabicTitle": "كتاب مناسك الحج",
+      "totalHadiths": 467
+    },
+    {
+      "id": 25,
+      "title": "The Book of Jihad",
+      "arabicTitle": "كتاب الجهاد",
+      "totalHadiths": 111
+    },
+    {
+      "id": 26,
+      "title": "The Book of Marriage",
+      "arabicTitle": "كتاب النكاح",
+      "totalHadiths": 193
+    },
+    {
+      "id": 27,
+      "title": "The Book of Divorce",
+      "arabicTitle": "كتاب الطلاق",
+      "totalHadiths": 174
+    },
+    {
+      "id": 28,
+      "title": "The Book of Horses, Races and Shooting",
+      "arabicTitle": "كتاب الخيل",
+      "totalHadiths": 33
+    },
+    {
+      "id": 29,
+      "title": "The Book of Endowments",
+      "arabicTitle": "كتاب الإحباس",
+      "totalHadiths": 17
+    },
+    {
+      "id": 30,
+      "title": "The Book of Wills",
+      "arabicTitle": "كتاب الوصايا",
+      "totalHadiths": 61
+    },
+    {
+      "id": 31,
+      "title": "The Book of Presents",
+      "arabicTitle": "كتاب النحل",
+      "totalHadiths": 16
+    },
+    {
+      "id": 32,
+      "title": "The Book of Gifts",
+      "arabicTitle": "كتاب الهبة",
+      "totalHadiths": 18
+    },
+    {
+      "id": 33,
+      "title": "The Book of ar-Ruqba",
+      "arabicTitle": "كتاب الرقبى",
+      "totalHadiths": 14
+    },
+    {
+      "id": 34,
+      "title": "The Book of 'Umra",
+      "arabicTitle": "كتاب العمرى",
+      "totalHadiths": 42
+    },
+    {
+      "id": 35,
+      "title": "The Book of Oaths and Vows",
+      "arabicTitle": "كتاب الأيمان والنذور",
+      "totalHadiths": 96
+    },
+    {
+      "id": null,
+      "title": "The Book of Agriculture",
+      "arabicTitle": "كتاب المزارعة",
+      "totalHadiths": 83
+    },
+    {
+      "id": 36,
+      "title": "The Book of the Kind Treatment of Women",
+      "arabicTitle": "كتاب عشرة النساء",
+      "totalHadiths": 27
+    },
+    {
+      "id": 37,
+      "title": "The Book of Fighting [The Prohibition of Bloodshed]",
+      "arabicTitle": "كتاب تحريم الدم",
+      "totalHadiths": 167
+    },
+    {
+      "id": 38,
+      "title": "The Book of Distribution of Al-Fay'",
+      "arabicTitle": "كتاب قسم الفىء",
+      "totalHadiths": 16
+    },
+    {
+      "id": 39,
+      "title": "The Book of al-Bay'ah",
+      "arabicTitle": "كتاب البيعة",
+      "totalHadiths": 63
+    },
+    {
+      "id": 40,
+      "title": "The Book of al-'Aqiqah",
+      "arabicTitle": "كتاب العقيقة",
+      "totalHadiths": 10
+    },
+    {
+      "id": 41,
+      "title": "The Book of al-Fara' and al-'Atirah",
+      "arabicTitle": "كتاب الفرع والعتيرة",
+      "totalHadiths": 41
+    },
+    {
+      "id": 42,
+      "title": "The Book of Hunting and Slaughtering",
+      "arabicTitle": "كتاب الصيد والذبائح",
+      "totalHadiths": 98
+    },
+    {
+      "id": 43,
+      "title": "The Book of ad-Dahaya (Sacrifices)",
+      "arabicTitle": "كتاب الضحايا",
+      "totalHadiths": 88
+    },
+    {
+      "id": 44,
+      "title": "The Book of Financial Transactions",
+      "arabicTitle": "كتاب البيوع",
+      "totalHadiths": 257
+    },
+    {
+      "id": 45,
+      "title": "The Book of Oaths (qasamah), Retaliation and Blood Money",
+      "arabicTitle": "كتاب القسامة",
+      "totalHadiths": 164
+    },
+    {
+      "id": 46,
+      "title": "The Book of Cutting off the Hand of the Thief",
+      "arabicTitle": "كتاب قطع السارق",
+      "totalHadiths": 114
+    },
+    {
+      "id": 47,
+      "title": "The Book Of Faith and its Signs",
+      "arabicTitle": "كتاب الإيمان وشرائعه",
+      "totalHadiths": 55
+    },
+    {
+      "id": 48,
+      "title": "The Book of Adornment",
+      "arabicTitle": "كتاب الزينة من السنن",
+      "totalHadiths": 339
+    },
+    {
+      "id": 49,
+      "title": "The Book of the Etiquette of Judges",
+      "arabicTitle": "كتاب آداب القضاة",
+      "totalHadiths": 49
+    },
+    {
+      "id": 50,
+      "title": "The Book of Seeking Refuge with Allah",
+      "arabicTitle": "كتاب الاستعاذة",
+      "totalHadiths": 112
+    },
+    {
+      "id": 51,
+      "title": "The Book of Drinks",
+      "arabicTitle": "كتاب الأشربة",
+      "totalHadiths": 220
+    }
+  ]
+}

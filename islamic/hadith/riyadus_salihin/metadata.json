@@ -1,0 +1,130 @@
+{
+  "id": "riyadus_salihin",
+  "title": "Riyad as-Salihin",
+  "description": "A compilation of authentic hadiths by Imam An-Nawawi",
+  "language": "en",
+  "lastUpdated": "2025-03-04T05:14:12.986Z",
+  "totalChapters": 20,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Book of Good Manners",
+      "arabicTitle": "كتاب الأدب",
+      "totalHadiths": 47
+    },
+    {
+      "id": 2,
+      "title": "The Book About the Etiquette of Eating",
+      "arabicTitle": "كتـــــاب أدب الطعام",
+      "totalHadiths": 51
+    },
+    {
+      "id": 3,
+      "title": "The Book of Dress",
+      "arabicTitle": "كتــــاب اللباس",
+      "totalHadiths": 35
+    },
+    {
+      "id": 4,
+      "title": "The Book of the Etiquette of Sleeping, Lying and Sitting etc",
+      "arabicTitle": "كتاب آداب النوم",
+      "totalHadiths": 31
+    },
+    {
+      "id": 5,
+      "title": "The Book of Greetings",
+      "arabicTitle": "كتاب السلام",
+      "totalHadiths": 50
+    },
+    {
+      "id": 6,
+      "title": "The Book of Visiting the Sick",
+      "arabicTitle": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه",
+      "totalHadiths": 62
+    },
+    {
+      "id": 7,
+      "title": "The Book of Etiquette of Traveling",
+      "arabicTitle": "كتاب آداب السفر",
+      "totalHadiths": 35
+    },
+    {
+      "id": 8,
+      "title": "The Book of Virtues",
+      "arabicTitle": "كتاب الفضائل",
+      "totalHadiths": 277
+    },
+    {
+      "id": 9,
+      "title": "The Book of I'tikaf",
+      "arabicTitle": "كتاب الاعتكاف",
+      "totalHadiths": 3
+    },
+    {
+      "id": 10,
+      "title": "The Book of Hajj",
+      "arabicTitle": "كتاب الحج",
+      "totalHadiths": 14
+    },
+    {
+      "id": 11,
+      "title": "The Book of Jihad",
+      "arabicTitle": "كتاب الجهاد",
+      "totalHadiths": 91
+    },
+    {
+      "id": 12,
+      "title": "The Book of Knowledge",
+      "arabicTitle": "كتاب العلم",
+      "totalHadiths": 17
+    },
+    {
+      "id": 13,
+      "title": "The Book of Praise and Gratitude to Allah",
+      "arabicTitle": "كتاب حمد الله تعالى وشكره",
+      "totalHadiths": 4
+    },
+    {
+      "id": 14,
+      "title": "The Book of Supplicating Allah to Exalt the Mention of Allah's Messenger",
+      "arabicTitle": "كتاب الصلاة على رسول الله صلى الله عليه وسلم",
+      "totalHadiths": 11
+    },
+    {
+      "id": 15,
+      "title": "The Book of the Remembrance of Allah",
+      "arabicTitle": "كتاب الأذكار",
+      "totalHadiths": 57
+    },
+    {
+      "id": 16,
+      "title": "The Book of Du'a (Supplications)",
+      "arabicTitle": "كتاب الدعوات",
+      "totalHadiths": 46
+    },
+    {
+      "id": 17,
+      "title": "The Book of the Prohibited actions",
+      "arabicTitle": "كتاب الأمور المنهي عنها",
+      "totalHadiths": 297
+    },
+    {
+      "id": 18,
+      "title": "The Book of Miscellaneous ahadith of Significant Values",
+      "arabicTitle": "كتاب المنثورات والملح",
+      "totalHadiths": 61
+    },
+    {
+      "id": 19,
+      "title": "The Book of Forgiveness",
+      "arabicTitle": "كتاب الاستغفار",
+      "totalHadiths": 28
+    },
+    {
+      "id": 0,
+      "title": "The Book of Miscellany",
+      "arabicTitle": "كتاب المقدمات",
+      "totalHadiths": 679
+    }
+  ]
+}

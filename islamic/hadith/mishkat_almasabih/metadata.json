@@ -1,0 +1,160 @@
+{
+  "id": "mishkat_almasabih",
+  "title": "Mishkat al-Masabih",
+  "description": "A expanded collection of hadith compiled by Al-Khatib Al-Tabrizi, building upon Masabih al-Sunnah",
+  "language": "en",
+  "lastUpdated": "2025-03-04T05:14:13.237Z",
+  "totalChapters": 25,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Faith",
+      "arabicTitle": "كتاب الإيمان",
+      "totalHadiths": 188
+    },
+    {
+      "id": 2,
+      "title": "Knowledge",
+      "arabicTitle": "كتاب العلم",
+      "totalHadiths": 75
+    },
+    {
+      "id": 3,
+      "title": "Purification",
+      "arabicTitle": "كتاب الطهارة",
+      "totalHadiths": 258
+    },
+    {
+      "id": 4,
+      "title": "Prayer",
+      "arabicTitle": "كتاب الصلاة",
+      "totalHadiths": 921
+    },
+    {
+      "id": 5,
+      "title": "Funerals",
+      "arabicTitle": "كتاب الجنائز",
+      "totalHadiths": 243
+    },
+    {
+      "id": 6,
+      "title": "Zakat",
+      "arabicTitle": "كتاب الزكاة",
+      "totalHadiths": 180
+    },
+    {
+      "id": 7,
+      "title": "Fasting",
+      "arabicTitle": "كتاب الصوم",
+      "totalHadiths": 148
+    },
+    {
+      "id": 8,
+      "title": "The Excellent Qualities of the Qur'an",
+      "arabicTitle": "كتاب فضائل القرآن",
+      "totalHadiths": 112
+    },
+    {
+      "id": 9,
+      "title": "Supplications",
+      "arabicTitle": "كتاب الدعوات",
+      "totalHadiths": 272
+    },
+    {
+      "id": 10,
+      "title": "The Rites of Pilgrimage",
+      "arabicTitle": "كتاب المناسك",
+      "totalHadiths": 246
+    },
+    {
+      "id": 11,
+      "title": "Business Transactions",
+      "arabicTitle": "كتاب البيوع",
+      "totalHadiths": 274
+    },
+    {
+      "id": 12,
+      "title": "Inheritance and Wills",
+      "arabicTitle": "كتاب الفرائض والوصايا",
+      "totalHadiths": 37
+    },
+    {
+      "id": 13,
+      "title": "Marriage",
+      "arabicTitle": "كتاب النكاح",
+      "totalHadiths": 293
+    },
+    {
+      "id": 14,
+      "title": "Emancipation",
+      "arabicTitle": "كتاب العتق",
+      "totalHadiths": 24
+    },
+    {
+      "id": 15,
+      "title": "Oaths and Vows",
+      "arabicTitle": "كتاب الإيمان والنذور",
+      "totalHadiths": 39
+    },
+    {
+      "id": 16,
+      "title": "Retaliation",
+      "arabicTitle": "كتاب القصاص",
+      "totalHadiths": 100
+    },
+    {
+      "id": 17,
+      "title": "Prescribed Punishments",
+      "arabicTitle": "كتاب الحدود",
+      "totalHadiths": 94
+    },
+    {
+      "id": 18,
+      "title": "The Offices of Commander and Qadi",
+      "arabicTitle": "كتاب الإمارة والقضاء",
+      "totalHadiths": 121
+    },
+    {
+      "id": 19,
+      "title": "Jihad",
+      "arabicTitle": "كتاب الجهاد",
+      "totalHadiths": 273
+    },
+    {
+      "id": 20,
+      "title": "Game and Animals Which May Be Slaughtered",
+      "arabicTitle": "كتاب الصيد والذبائح",
+      "totalHadiths": 93
+    },
+    {
+      "id": 21,
+      "title": "Foods",
+      "arabicTitle": "كتاب الأطعمة",
+      "totalHadiths": 135
+    },
+    {
+      "id": 22,
+      "title": "Clothing",
+      "arabicTitle": "كتاب اللباس",
+      "totalHadiths": 193
+    },
+    {
+      "id": 23,
+      "title": "Medicine and Spells",
+      "arabicTitle": "كتاب الطب والرقى",
+      "totalHadiths": 88
+    },
+    {
+      "id": 24,
+      "title": "Visions",
+      "arabicTitle": "كتاب الرؤيا",
+      "totalHadiths": 20
+    },
+    {
+      "id": 0,
+      "title": "Author's Introduction",
+      "arabicTitle": "مقدمة المؤلف",
+      "totalHadiths": 1
+    }
+  ]
+}

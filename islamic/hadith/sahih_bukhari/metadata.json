@@ -1,0 +1,592 @@
+{
+  "id": "sahih_bukhari",
+  "title": "Sahih al-Bukhari",
+  "description": "The most authentic collection of Hadith, compiled by Imam Bukhari",
+  "language": "en",
+  "lastUpdated": "2025-03-04T05:14:11.827Z",
+  "totalChapters": 97,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Revelation",
+      "arabicTitle": "كتاب بدء الوحى",
+      "totalHadiths": 7
+    },
+    {
+      "id": 2,
+      "title": "Belief",
+      "arabicTitle": "كتاب الإيمان",
+      "totalHadiths": 51
+    },
+    {
+      "id": 3,
+      "title": "Knowledge",
+      "arabicTitle": "كتاب العلم",
+      "totalHadiths": 76
+    },
+    {
+      "id": 4,
+      "title": "Ablutions (Wudu')",
+      "arabicTitle": "كتاب الوضوء",
+      "totalHadiths": 113
+    },
+    {
+      "id": 5,
+      "title": "Bathing (Ghusl)",
+      "arabicTitle": "كتاب الغسل",
+      "totalHadiths": 45
+    },
+    {
+      "id": 6,
+      "title": "Menstrual Periods",
+      "arabicTitle": "كتاب الحيض",
+      "totalHadiths": 37
+    },
+    {
+      "id": 7,
+      "title": "Rubbing hands and feet with dust (Tayammum)",
+      "arabicTitle": "كتاب التيمم",
+      "totalHadiths": 15
+    },
+    {
+      "id": 8,
+      "title": "Prayers (Salat)",
+      "arabicTitle": "كتاب الصلاة",
+      "totalHadiths": 167
+    },
+    {
+      "id": 9,
+      "title": "Times of the Prayers",
+      "arabicTitle": "كتاب مواقيت الصلاة",
+      "totalHadiths": 77
+    },
+    {
+      "id": 10,
+      "title": "Call to Prayers (Adhaan)",
+      "arabicTitle": "كتاب الأذان",
+      "totalHadiths": 266
+    },
+    {
+      "id": 11,
+      "title": "Friday Prayer",
+      "arabicTitle": "كتاب الجمعة",
+      "totalHadiths": 65
+    },
+    {
+      "id": 12,
+      "title": "Fear Prayer",
+      "arabicTitle": "كتاب صلاة الخوف",
+      "totalHadiths": 6
+    },
+    {
+      "id": 13,
+      "title": "The Two Festivals (Eids)",
+      "arabicTitle": "كتاب العيدين",
+      "totalHadiths": 37
+    },
+    {
+      "id": 14,
+      "title": "Witr Prayer",
+      "arabicTitle": "كتاب الوتر",
+      "totalHadiths": 15
+    },
+    {
+      "id": 15,
+      "title": "Invoking Allah for Rain (Istisqaa)",
+      "arabicTitle": "كتاب الاستسقاء",
+      "totalHadiths": 34
+    },
+    {
+      "id": 16,
+      "title": "Eclipses",
+      "arabicTitle": "كتاب الكسوف",
+      "totalHadiths": 24
+    },
+    {
+      "id": 17,
+      "title": "Prostration During Recital of Qur'an",
+      "arabicTitle": "كتاب سجود القرآن",
+      "totalHadiths": 13
+    },
+    {
+      "id": 18,
+      "title": "Shortening the Prayers (At-Taqseer)",
+      "arabicTitle": "كتاب التقصير",
+      "totalHadiths": 39
+    },
+    {
+      "id": 19,
+      "title": "Prayer at Night (Tahajjud)",
+      "arabicTitle": "كتاب التهجد",
+      "totalHadiths": 63
+    },
+    {
+      "id": 20,
+      "title": "Virtues of Prayer at Masjid Makkah and Madinah",
+      "arabicTitle": "كتاب فضل الصلاة فى مسجد مكة والمدينة",
+      "totalHadiths": 9
+    },
+    {
+      "id": 21,
+      "title": "Actions while Praying",
+      "arabicTitle": "كتاب العمل فى الصلاة",
+      "totalHadiths": 27
+    },
+    {
+      "id": 22,
+      "title": "Forgetfulness in Prayer",
+      "arabicTitle": "كتاب السهو",
+      "totalHadiths": 14
+    },
+    {
+      "id": 23,
+      "title": "Funerals (Al-Janaa'iz)",
+      "arabicTitle": "كتاب الجنائز",
+      "totalHadiths": 148
+    },
+    {
+      "id": 24,
+      "title": "Obligatory Charity Tax (Zakat)",
+      "arabicTitle": "كتاب الزكاة",
+      "totalHadiths": 112
+    },
+    {
+      "id": 25,
+      "title": "Hajj (Pilgrimage)",
+      "arabicTitle": "كتاب الحج",
+      "totalHadiths": 247
+    },
+    {
+      "id": 26,
+      "title": "`Umrah (Minor pilgrimage)",
+      "arabicTitle": "كتاب العمرة",
+      "totalHadiths": 30
+    },
+    {
+      "id": 27,
+      "title": "Pilgrims Prevented from Completing the Pilgrimage",
+      "arabicTitle": "كتاب المحصر",
+      "totalHadiths": 15
+    },
+    {
+      "id": 28,
+      "title": "Penalty of Hunting while on Pilgrimage",
+      "arabicTitle": "كتاب جزاء الصيد",
+      "totalHadiths": 46
+    },
+    {
+      "id": 29,
+      "title": "Virtues of Madinah",
+      "arabicTitle": "كتاب فضائل المدينة",
+      "totalHadiths": 24
+    },
+    {
+      "id": 30,
+      "title": "Fasting",
+      "arabicTitle": "كتاب الصوم",
+      "totalHadiths": 112
+    },
+    {
+      "id": 31,
+      "title": "Praying at Night in Ramadaan (Taraweeh)",
+      "arabicTitle": "كتاب صلاة التراويح",
+      "totalHadiths": 6
+    },
+    {
+      "id": 32,
+      "title": "Virtues of the Night of Qadr",
+      "arabicTitle": "كتاب فضل ليلة القدر",
+      "totalHadiths": 11
+    },
+    {
+      "id": 33,
+      "title": "Retiring to a Mosque for Remembrance of Allah (I'tikaf)",
+      "arabicTitle": "كتاب الاعتكاف",
+      "totalHadiths": 21
+    },
+    {
+      "id": 34,
+      "title": "Sales and Trade",
+      "arabicTitle": "كتاب البيوع",
+      "totalHadiths": 184
+    },
+    {
+      "id": 35,
+      "title": "Sales in which a Price is paid for Goods to be Delivered Later (As-Salam)",
+      "arabicTitle": "كتاب السلم",
+      "totalHadiths": 16
+    },
+    {
+      "id": 36,
+      "title": "Shuf'a",
+      "arabicTitle": "كتاب الشفعة",
+      "totalHadiths": 3
+    },
+    {
+      "id": 37,
+      "title": "Hiring",
+      "arabicTitle": "كتاب الإجارة",
+      "totalHadiths": 25
+    },
+    {
+      "id": 38,
+      "title": "Transferance of a Debt from One Person to Another (Al-Hawaala)",
+      "arabicTitle": "كتاب الحوالات",
+      "totalHadiths": 3
+    },
+    {
+      "id": 39,
+      "title": "Kafalah",
+      "arabicTitle": "كتاب الكفالة",
+      "totalHadiths": 9
+    },
+    {
+      "id": 40,
+      "title": "Representation, Authorization, Business by Proxy",
+      "arabicTitle": "كتاب الوكالة",
+      "totalHadiths": 18
+    },
+    {
+      "id": 41,
+      "title": "Agriculture",
+      "arabicTitle": "كتاب المزارعة",
+      "totalHadiths": 28
+    },
+    {
+      "id": 42,
+      "title": "Distribution of Water",
+      "arabicTitle": "كتاب المساقاة",
+      "totalHadiths": 31
+    },
+    {
+      "id": 43,
+      "title": "Loans, Payment of Loans, Freezing of Property, Bankruptcy",
+      "arabicTitle": "كتاب فى الاستقراض",
+      "totalHadiths": 24
+    },
+    {
+      "id": 44,
+      "title": "Khusoomaat",
+      "arabicTitle": "كتاب الخصومات",
+      "totalHadiths": 15
+    },
+    {
+      "id": 45,
+      "title": "Lost Things Picked up by Someone (Luqatah)",
+      "arabicTitle": "كتاب فى اللقطة",
+      "totalHadiths": 15
+    },
+    {
+      "id": 46,
+      "title": "Oppressions",
+      "arabicTitle": "كتاب المظالم",
+      "totalHadiths": 43
+    },
+    {
+      "id": 47,
+      "title": "Partnership",
+      "arabicTitle": "كتاب الشركة",
+      "totalHadiths": 22
+    },
+    {
+      "id": 48,
+      "title": "Mortgaging",
+      "arabicTitle": "كتاب الرهن",
+      "totalHadiths": 8
+    },
+    {
+      "id": 49,
+      "title": "Manumission of Slaves",
+      "arabicTitle": "كتاب العتق",
+      "totalHadiths": 41
+    },
+    {
+      "id": 50,
+      "title": "Makaatib",
+      "arabicTitle": "كتاب المكاتب",
+      "totalHadiths": 6
+    },
+    {
+      "id": 51,
+      "title": "Gifts",
+      "arabicTitle": "كتاب الهبة وفضلها والتحريض عليها",
+      "totalHadiths": 68
+    },
+    {
+      "id": 52,
+      "title": "Witnesses",
+      "arabicTitle": "كتاب الشهادات",
+      "totalHadiths": 50
+    },
+    {
+      "id": 53,
+      "title": "Peacemaking",
+      "arabicTitle": "كتاب الصلح",
+      "totalHadiths": 20
+    },
+    {
+      "id": 54,
+      "title": "Conditions",
+      "arabicTitle": "كتاب الشروط",
+      "totalHadiths": 24
+    },
+    {
+      "id": 55,
+      "title": "Wills and Testaments (Wasaayaa)",
+      "arabicTitle": "كتاب الوصايا",
+      "totalHadiths": 44
+    },
+    {
+      "id": 56,
+      "title": "Fighting for the Cause of Allah (Jihaad)",
+      "arabicTitle": "كتاب الجهاد والسير",
+      "totalHadiths": 294
+    },
+    {
+      "id": 57,
+      "title": "One-fifth of Booty to the Cause of Allah (Khumus)",
+      "arabicTitle": "كتاب فرض الخمس",
+      "totalHadiths": 63
+    },
+    {
+      "id": 58,
+      "title": "Jizyah and Mawaada'ah",
+      "arabicTitle": "كتاب الجزية والموادعة",
+      "totalHadiths": 30
+    },
+    {
+      "id": 59,
+      "title": "Beginning of Creation",
+      "arabicTitle": "كتاب بدء الخلق",
+      "totalHadiths": 131
+    },
+    {
+      "id": 60,
+      "title": "Prophets",
+      "arabicTitle": "كتاب أحاديث الأنبياء",
+      "totalHadiths": 154
+    },
+    {
+      "id": 61,
+      "title": "Virtues and Merits of the Prophet (pbuh) and his Companions",
+      "arabicTitle": "كتاب المناقب",
+      "totalHadiths": 151
+    },
+    {
+      "id": 62,
+      "title": "Companions of the Prophet",
+      "arabicTitle": "كتاب فضائل أصحاب النبى صلى الله عليه وسلم",
+      "totalHadiths": 120
+    },
+    {
+      "id": 63,
+      "title": "Merits of the Helpers in Madinah (Ansaar)",
+      "arabicTitle": "كتاب مناقب الأنصار",
+      "totalHadiths": 172
+    },
+    {
+      "id": 64,
+      "title": "Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)",
+      "arabicTitle": "كتاب المغازى",
+      "totalHadiths": 488
+    },
+    {
+      "id": 65,
+      "title": "Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))",
+      "arabicTitle": "كتاب التفسير",
+      "totalHadiths": 499
+    },
+    {
+      "id": 66,
+      "title": "Virtues of the Qur'an",
+      "arabicTitle": "كتاب فضائل القرآن",
+      "totalHadiths": 87
+    },
+    {
+      "id": 67,
+      "title": "Wedlock, Marriage (Nikaah)",
+      "arabicTitle": "كتاب النكاح",
+      "totalHadiths": 183
+    },
+    {
+      "id": 68,
+      "title": "Divorce",
+      "arabicTitle": "كتاب الطلاق",
+      "totalHadiths": 95
+    },
+    {
+      "id": 69,
+      "title": "Supporting the Family",
+      "arabicTitle": "كتاب النفقات",
+      "totalHadiths": 22
+    },
+    {
+      "id": 70,
+      "title": "Food, Meals",
+      "arabicTitle": "كتاب الأطعمة",
+      "totalHadiths": 95
+    },
+    {
+      "id": 71,
+      "title": "Sacrifice on Occasion of Birth (`Aqiqa)",
+      "arabicTitle": "كتاب العقيقة",
+      "totalHadiths": 9
+    },
+    {
+      "id": 72,
+      "title": "Hunting, Slaughtering",
+      "arabicTitle": "كتاب الذبائح والصيد",
+      "totalHadiths": 69
+    },
+    {
+      "id": 73,
+      "title": "Al-Adha Festival Sacrifice (Adaahi)",
+      "arabicTitle": "كتاب الأضاحي",
+      "totalHadiths": 30
+    },
+    {
+      "id": 74,
+      "title": "Drinks",
+      "arabicTitle": "كتاب الأشربة",
+      "totalHadiths": 65
+    },
+    {
+      "id": 75,
+      "title": "Patients",
+      "arabicTitle": "كتاب المرضى",
+      "totalHadiths": 37
+    },
+    {
+      "id": 76,
+      "title": "Medicine",
+      "arabicTitle": "كتاب الطب",
+      "totalHadiths": 93
+    },
+    {
+      "id": 77,
+      "title": "Dress",
+      "arabicTitle": "كتاب اللباس",
+      "totalHadiths": 185
+    },
+    {
+      "id": 78,
+      "title": "Good Manners and Form (Al-Adab)",
+      "arabicTitle": "كتاب الأدب",
+      "totalHadiths": 250
+    },
+    {
+      "id": 79,
+      "title": "Asking Permission",
+      "arabicTitle": "كتاب الاستئذان",
+      "totalHadiths": 75
+    },
+    {
+      "id": 80,
+      "title": "Invocations",
+      "arabicTitle": "كتاب الدعوات",
+      "totalHadiths": 106
+    },
+    {
+      "id": 81,
+      "title": "To make the Heart Tender (Ar-Riqaq)",
+      "arabicTitle": "كتاب الرقاق",
+      "totalHadiths": 181
+    },
+    {
+      "id": 82,
+      "title": "Divine Will (Al-Qadar)",
+      "arabicTitle": "كتاب القدر",
+      "totalHadiths": 26
+    },
+    {
+      "id": 83,
+      "title": "Oaths and Vows",
+      "arabicTitle": "كتاب الأيمان والنذور",
+      "totalHadiths": 84
+    },
+    {
+      "id": 84,
+      "title": "Expiation for Unfulfilled Oaths",
+      "arabicTitle": "كتاب كفارات الأيمان",
+      "totalHadiths": 15
+    },
+    {
+      "id": 85,
+      "title": "Laws of Inheritance (Al-Faraa'id)",
+      "arabicTitle": "كتاب الفرائض",
+      "totalHadiths": 47
+    },
+    {
+      "id": 86,
+      "title": "Limits and Punishments set by Allah (Hudood)",
+      "arabicTitle": "كتاب الحدود",
+      "totalHadiths": 81
+    },
+    {
+      "id": 87,
+      "title": "Blood Money (Ad-Diyat)",
+      "arabicTitle": "كتاب الديات",
+      "totalHadiths": 55
+    },
+    {
+      "id": 88,
+      "title": "Apostates",
+      "arabicTitle": "كتاب استتابة المرتدين والمعاندين وقتالهم",
+      "totalHadiths": 21
+    },
+    {
+      "id": 89,
+      "title": "(Statements made under) Coercion",
+      "arabicTitle": "كتاب الإكراه",
+      "totalHadiths": 13
+    },
+    {
+      "id": 90,
+      "title": "Tricks",
+      "arabicTitle": "كتاب الحيل",
+      "totalHadiths": 28
+    },
+    {
+      "id": 91,
+      "title": "Interpretation of Dreams",
+      "arabicTitle": "كتاب التعبير",
+      "totalHadiths": 61
+    },
+    {
+      "id": 92,
+      "title": "Afflictions and the End of the World",
+      "arabicTitle": "كتاب الفتن",
+      "totalHadiths": 83
+    },
+    {
+      "id": 93,
+      "title": "Judgments (Ahkaam)",
+      "arabicTitle": "كتاب الأحكام",
+      "totalHadiths": 84
+    },
+    {
+      "id": 94,
+      "title": "Wishes",
+      "arabicTitle": "كتاب التمنى",
+      "totalHadiths": 20
+    },
+    {
+      "id": 95,
+      "title": "Accepting Information Given by a Truthful Person",
+      "arabicTitle": "كتاب أخبار الآحاد",
+      "totalHadiths": 21
+    },
+    {
+      "id": 96,
+      "title": "Holding Fast to the Qur'an and Sunnah",
+      "arabicTitle": "كتاب الاعتصام بالكتاب والسنة",
+      "totalHadiths": 97
+    },
+    {
+      "id": 97,
+      "title": "Oneness, Uniqueness of Allah (Tawheed)",
+      "arabicTitle": "كتاب التوحيد",
+      "totalHadiths": 188
+    }
+  ]
+}

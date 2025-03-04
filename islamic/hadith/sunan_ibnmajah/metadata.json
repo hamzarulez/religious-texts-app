@@ -1,0 +1,238 @@
+{
+  "id": "sunan_ibnmajah",
+  "title": "Sunan Ibn Majah",
+  "description": "One of the six major hadith collections of Sunni Islam",
+  "language": "en",
+  "lastUpdated": "2025-03-04T05:14:12.553Z",
+  "totalChapters": 38,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Book of Purification and its Sunnah",
+      "arabicTitle": "كتاب الطهارة وسننها",
+      "totalHadiths": 400
+    },
+    {
+      "id": 2,
+      "title": "The Book of the Prayer",
+      "arabicTitle": "كتاب الصلاة",
+      "totalHadiths": 39
+    },
+    {
+      "id": 3,
+      "title": "The Book of the Adhan and the Sunnah Regarding It",
+      "arabicTitle": "كتاب الأذان والسنة فيها",
+      "totalHadiths": 29
+    },
+    {
+      "id": 4,
+      "title": "The Book On The Mosques And The Congregations",
+      "arabicTitle": "كتاب المساجد والجماعات",
+      "totalHadiths": 68
+    },
+    {
+      "id": 5,
+      "title": "Establishing the Prayer and the Sunnah Regarding Them",
+      "arabicTitle": "كتاب إقامة الصلاة والسنة فيها",
+      "totalHadiths": 630
+    },
+    {
+      "id": 6,
+      "title": "Chapters Regarding Funerals",
+      "arabicTitle": "كتاب الجنائز",
+      "totalHadiths": 205
+    },
+    {
+      "id": 7,
+      "title": "Fasting",
+      "arabicTitle": "كتاب الصيام",
+      "totalHadiths": 145
+    },
+    {
+      "id": 8,
+      "title": "The Chapters Regarding Zakat",
+      "arabicTitle": "كتاب الزكاة",
+      "totalHadiths": 62
+    },
+    {
+      "id": 9,
+      "title": "The Chapters on Marriage",
+      "arabicTitle": "كتاب النكاح",
+      "totalHadiths": 171
+    },
+    {
+      "id": 10,
+      "title": "The Chapters on Divorce",
+      "arabicTitle": "كتاب الطلاق",
+      "totalHadiths": 74
+    },
+    {
+      "id": 11,
+      "title": "The Chapters on Expiation",
+      "arabicTitle": "كتاب الكفارات",
+      "totalHadiths": 47
+    },
+    {
+      "id": 12,
+      "title": "The Chapters on Business Transactions",
+      "arabicTitle": "كتاب التجارات",
+      "totalHadiths": 171
+    },
+    {
+      "id": 13,
+      "title": "The Chapters on Rulings",
+      "arabicTitle": "كتاب الأحكام",
+      "totalHadiths": 67
+    },
+    {
+      "id": 14,
+      "title": "The Chapters on Gifts",
+      "arabicTitle": "كتاب الهبات",
+      "totalHadiths": 15
+    },
+    {
+      "id": 15,
+      "title": "The Chapters on Charity",
+      "arabicTitle": "كتاب الصدقات",
+      "totalHadiths": 46
+    },
+    {
+      "id": 16,
+      "title": "The Chapters on Pawning",
+      "arabicTitle": "كتاب الرهون",
+      "totalHadiths": 57
+    },
+    {
+      "id": 17,
+      "title": "The Chapters on Pre-emption",
+      "arabicTitle": "كتاب الشفعة",
+      "totalHadiths": 11
+    },
+    {
+      "id": 18,
+      "title": "The Chapters on Lost Property",
+      "arabicTitle": "كتاب اللقطة",
+      "totalHadiths": 10
+    },
+    {
+      "id": 19,
+      "title": "The Chapters on Manumission (of Slaves)",
+      "arabicTitle": "كتاب العتق",
+      "totalHadiths": 21
+    },
+    {
+      "id": 20,
+      "title": "The Chapters on Legal Punishments",
+      "arabicTitle": "كتاب الحدود",
+      "totalHadiths": 82
+    },
+    {
+      "id": 21,
+      "title": "The Chapters on Blood Money",
+      "arabicTitle": "كتاب الديات",
+      "totalHadiths": 80
+    },
+    {
+      "id": 22,
+      "title": "The Chapters on Wills",
+      "arabicTitle": "كتاب الوصايا",
+      "totalHadiths": 24
+    },
+    {
+      "id": 23,
+      "title": "Chapters on Shares of Inheritance",
+      "arabicTitle": "كتاب الفرائض",
+      "totalHadiths": 34
+    },
+    {
+      "id": 24,
+      "title": "The Chapters on Jihad",
+      "arabicTitle": "كتاب الجهاد",
+      "totalHadiths": 129
+    },
+    {
+      "id": 25,
+      "title": "Chapters on Hajj Rituals",
+      "arabicTitle": "كتاب المناسك",
+      "totalHadiths": 238
+    },
+    {
+      "id": 26,
+      "title": "Chapters on Sacrifices",
+      "arabicTitle": "كتاب الأضاحي",
+      "totalHadiths": 42
+    },
+    {
+      "id": 27,
+      "title": "Chapters on Slaughtering",
+      "arabicTitle": "كتاب الذبائح",
+      "totalHadiths": 38
+    },
+    {
+      "id": 28,
+      "title": "Chapters on Hunting",
+      "arabicTitle": "كتاب الصيد",
+      "totalHadiths": 51
+    },
+    {
+      "id": 29,
+      "title": "Chapters on Food",
+      "arabicTitle": "كتاب الأطعمة",
+      "totalHadiths": 120
+    },
+    {
+      "id": 30,
+      "title": "Chapters on Drinks",
+      "arabicTitle": "كتاب الأشربة",
+      "totalHadiths": 65
+    },
+    {
+      "id": 31,
+      "title": "Chapters on Medicine",
+      "arabicTitle": "كتاب الطب",
+      "totalHadiths": 114
+    },
+    {
+      "id": 32,
+      "title": "Chapters on Dress",
+      "arabicTitle": "كتاب اللباس",
+      "totalHadiths": 107
+    },
+    {
+      "id": 33,
+      "title": "Etiquette",
+      "arabicTitle": "كتاب الأدب",
+      "totalHadiths": 170
+    },
+    {
+      "id": 34,
+      "title": "Supplication",
+      "arabicTitle": "كتاب الدعاء",
+      "totalHadiths": 66
+    },
+    {
+      "id": 35,
+      "title": "Interpretation of Dreams",
+      "arabicTitle": "كتاب تعبير الرؤيا",
+      "totalHadiths": 34
+    },
+    {
+      "id": 36,
+      "title": "Tribulations",
+      "arabicTitle": "كتاب الفتن",
+      "totalHadiths": 175
+    },
+    {
+      "id": 37,
+      "title": "Zuhd",
+      "arabicTitle": "كتاب الزهد",
+      "totalHadiths": 242
+    },
+    {
+      "id": 0,
+      "title": "The Book of the Sunnah",
+      "arabicTitle": "كتاب المقدمة",
+      "totalHadiths": 266
+    }
+  ]
+}
