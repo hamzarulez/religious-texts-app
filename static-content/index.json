@@ -1,0 +1,11 @@
+{
+  "title": "Religious Texts Repository",
+  "description": "A comprehensive collection of religious texts",
+  "religions": [
+    "islamic",
+    "christian",
+    "judaic"
+  ],
+  "lastUpdated": "2025-03-04T02:22:43.766Z",
+  "version": "1.0.0"
+}

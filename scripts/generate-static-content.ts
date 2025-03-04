@@ -1,16 +1,38 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import quranData from '../src/data/islamic/quran';
 
-interface ContentMetadata {
-  title: string;
-  description: string;
-  language: string;
-  lastUpdated: string;
-  totalItems: number;
+interface Chapter {
+  id: string;
+  name: string;
+  transliteration: string;
+  translation: string;
+  type: string;
+  totalVerses: number;
 }
 
-async function generateStaticContent() {
+// Sample data - you can replace this with actual data later
+const quranData = {
+  chapters: [
+    {
+      id: "1",
+      name: "الفاتحة",
+      transliteration: "Al-Fatihah",
+      translation: "The Opening",
+      type: "Meccan",
+      totalVerses: 7
+    },
+    {
+      id: "2",
+      name: "البقرة",
+      transliteration: "Al-Baqarah",
+      translation: "The Cow",
+      type: "Medinan",
+      totalVerses: 286
+    }
+  ]
+};
+
+async function generateStaticContent(): Promise<void> {
   const outputDir = path.join(__dirname, '../static-content');
   
   // Clear existing content
@@ -69,8 +91,8 @@ async function generateStaticContent() {
   };
 
   // Create directories and metadata files
-  function createStructure(obj: any, currentPath: string) {
-    Object.entries(obj).forEach(([key, value]: [string, any]) => {
+  function createStructure(obj: Record<string, any>, currentPath: string): void {
+    Object.entries(obj).forEach(([key, value]) => {
       const fullPath = path.join(outputDir, currentPath, key);
       
       if (key === 'metadata') {
@@ -104,7 +126,7 @@ async function generateStaticContent() {
   );
 
   // Write Quran chapters
-  quranData.chapters.forEach(chapter => {
+  quranData.chapters.forEach((chapter: Chapter) => {
     fs.writeFileSync(
       path.join(outputDir, 'islamic/quran/chapters', `${chapter.id}.json`),
       JSON.stringify(chapter, null, 2)
